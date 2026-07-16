@@ -1,8 +1,8 @@
 ﻿{
   "version": "1.0.0",
   "url": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS.exe",
-  "sha256": "79ba470c5cfafff9c343a52b1c4a98ea7d5d091b9a359c186eec176213d5ee99",
+  "sha256": "62460a50770764bbe1acb311c3883f76b047eea54c87d5a2cc1d891686fb2de9",
   "installer": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS-Setup.exe",
-  "installer_sha256": "72dca14cc52501331010c57abc657a72de720a87b2bc040c039299ca1c5848da",
-  "notes": "IFS Control Center - native desktop window (WebView2), light/dark theme, product picker UI, Puretip One + Bioyond Rob INTF bridge. Signed (Augeas Technologies)."
+  "installer_sha256": "657688749c8163b4e9a239e86cd9357e8afe4a2c909fc569ce27513145f4aaf3",
+  "notes": "IFS Control Center - native desktop window (WebView2), light theme, product picker (Plasma StandAlone / Tip Charger / Puretip One), Bioyond Rob INTF bridge. Signed (Augeas Technologies)."
 }
