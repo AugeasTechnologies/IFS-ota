@@ -1,8 +1,8 @@
 {
-  "version": "1.0.7",
+  "version": "1.0.8",
   "url": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS.exe",
-  "sha256": "8f41b4c627a07089299841e209e5246613095b9c649c1a982c6c585e0b59dc96",
+  "sha256": "bc1f2bea2038e76b6eaa688ed5a80d10cbb61356bac858e743a1b12feba62a74",
   "installer": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS-Setup.exe",
-  "installer_sha256": "072432d9c488963de9f6e653779c3b2d013aaa7ba8f0d1eca699f08cdd2c98be",
-  "notes": "IFS 1.0.7 - home dashboard is now a live status board (each product tile shows real-time state/temp/power, link, Bioyond bridge). Signed (Augeas Technologies)."
+  "installer_sha256": "6a257c63a21bc088f1a454ace458355d7321a109bde5e874494318d80a2a4be1",
+  "notes": "IFS 1.0.8 - Augeas Technologies logo added (software-by branding), IonField product branding on Home; installer now detects Smart App Control and explains it instead of failing with a cryptic error. Signed (Augeas Technologies)."
 }
