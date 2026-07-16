@@ -1,8 +1,8 @@
 {
-  "version": "1.0.3",
+  "version": "1.0.4",
   "url": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS.exe",
-  "sha256": "1937b0985a3c468cd32b456b97ff06be8c1cf73b4c9823076b3d41fcddb7dc63",
+  "sha256": "4d49d4171123038e0e835920a967a582c37ecc5d2e4abed2569b282deea21c44",
   "installer": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS-Setup.exe",
-  "installer_sha256": "fda8169df987414ec1e0e3a6cc697b4f00686db69c33b86c334c7c71661b958f",
-  "notes": "IFS 1.0.3 - LEM power scaling from Universal Controller 4.1 schematic (HV_Fbk 250V/2.5V, Li_Fbk 8A/2.5V); Opta A1/A2 defaults 100 V-per-V and 3.2 A-per-V. Firmware updated. Signed (Augeas Technologies)."
+  "installer_sha256": "30436e55bd3ff6005b0a44168ead9c9cedab7e8941b8dc2a09cc347a40f9b760",
+  "notes": "IFS 1.0.4 - chamber schematic reworked: fixed actuator (opens/closes), plasma knife at Row 1, plate sweeps, fan near Last (on only when plasma off). Show animation button previews a full cycle. Signed (Augeas Technologies)."
 }
