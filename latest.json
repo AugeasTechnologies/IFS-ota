@@ -1,8 +1,8 @@
 {
-  "version": "1.0.6",
+  "version": "1.0.7",
   "url": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS.exe",
-  "sha256": "4d42eecb5def3a223f72c2eab53eac31a5820086530daf314b01db1a877f3c77",
+  "sha256": "8f41b4c627a07089299841e209e5246613095b9c649c1a982c6c585e0b59dc96",
   "installer": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS-Setup.exe",
-  "installer_sha256": "d377faf7b95bbefe0f1d02b0ca5a97a3f2cf665210b5cec495f90afad1103ee4",
-  "notes": "IFS 1.0.6 - connect buttons hardened for real hardware (verify device on connect, detect dropped/half-open links, clear error + amber 'no data' states); chamber animation reworked (plate indexes under fixed knife, spray only on plate, exhaust). Signed (Augeas Technologies)."
+  "installer_sha256": "072432d9c488963de9f6e653779c3b2d013aaa7ba8f0d1eca699f08cdd2c98be",
+  "notes": "IFS 1.0.7 - home dashboard is now a live status board (each product tile shows real-time state/temp/power, link, Bioyond bridge). Signed (Augeas Technologies)."
 }
