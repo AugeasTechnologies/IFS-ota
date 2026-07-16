@@ -1,8 +1,8 @@
 {
-  "version": "1.0.2",
+  "version": "1.0.3",
   "url": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS.exe",
-  "sha256": "f5898e15f4260fa63493a6df8325dc750c530e37fa41561dbc2dd8b71889d67b",
+  "sha256": "1937b0985a3c468cd32b456b97ff06be8c1cf73b4c9823076b3d41fcddb7dc63",
   "installer": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS-Setup.exe",
-  "installer_sha256": "9b5c5a4b0353e18955a485d583a36a36a133b7270ae4f1d339b601d2d6f42a5b",
-  "notes": "IFS 1.0.2 - plasma on/off feedback + LEM voltage/current/power readouts (calibratable), live chamber schematic. Firmware updated. Signed (Augeas Technologies)."
+  "installer_sha256": "fda8169df987414ec1e0e3a6cc697b4f00686db69c33b86c334c7c71661b958f",
+  "notes": "IFS 1.0.3 - LEM power scaling from Universal Controller 4.1 schematic (HV_Fbk 250V/2.5V, Li_Fbk 8A/2.5V); Opta A1/A2 defaults 100 V-per-V and 3.2 A-per-V. Firmware updated. Signed (Augeas Technologies)."
 }
