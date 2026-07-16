@@ -1,8 +1,8 @@
 {
-  "version": "1.0.5",
+  "version": "1.0.6",
   "url": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS.exe",
-  "sha256": "a42d7ea67bea6c9b0f8b68a3bfd78c8437bf425c77ec9f089413b094328b2172",
+  "sha256": "4d42eecb5def3a223f72c2eab53eac31a5820086530daf314b01db1a877f3c77",
   "installer": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS-Setup.exe",
-  "installer_sha256": "37a0e86a6b2809a1f460ac66f035eccb7b91c2eaa9c681a3e9fc321024a64b3a",
-  "notes": "IFS 1.0.5 - cycle corrected on Opta (dwell after actuator close and after plasma); reports ACT/FAN; animation: actuator open on entry, plasma knife position label, fan inside chamber, Show animation matches real sequence. Firmware updated. Signed (Augeas Technologies)."
+  "installer_sha256": "d377faf7b95bbefe0f1d02b0ca5a97a3f2cf665210b5cec495f90afad1103ee4",
+  "notes": "IFS 1.0.6 - connect buttons hardened for real hardware (verify device on connect, detect dropped/half-open links, clear error + amber 'no data' states); chamber animation reworked (plate indexes under fixed knife, spray only on plate, exhaust). Signed (Augeas Technologies)."
 }
