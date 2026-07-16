@@ -1,8 +1,8 @@
 {
-  "version": "1.0.1",
+  "version": "1.0.2",
   "url": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS.exe",
-  "sha256": "da10b5662fbbb5478657968b0a5bef8847da04201c04aa376c08ccf5c08cf0ea",
+  "sha256": "f5898e15f4260fa63493a6df8325dc750c530e37fa41561dbc2dd8b71889d67b",
   "installer": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS-Setup.exe",
-  "installer_sha256": "56d0f974a3c2ea031d7421ae6a03e8b85cc0310ae560f7adba28c95728051a3e",
-  "notes": "IFS 1.0.1 - flat instrument UI, live chamber schematic (carriage + plasma), Bioyond bridge. Signed (Augeas Technologies)."
+  "installer_sha256": "9b5c5a4b0353e18955a485d583a36a36a133b7270ae4f1d339b601d2d6f42a5b",
+  "notes": "IFS 1.0.2 - plasma on/off feedback + LEM voltage/current/power readouts (calibratable), live chamber schematic. Firmware updated. Signed (Augeas Technologies)."
 }
