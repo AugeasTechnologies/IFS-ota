@@ -1,8 +1,8 @@
 {
-  "version": "1.0.21",
+  "version": "1.0.22",
   "url": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS.exe",
-  "sha256": "2e930cd68bc5e41b6d133e26adbe9e9c4ea473df8eaa6828854fb41b4ff9c07b",
+  "sha256": "a65101beac3c15df02adea3e93d2a4778ad5846d96eafa06da70d39ea5dd2872",
   "installer": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS-Setup.exe",
-  "installer_sha256": "81ae740cc08e9ed49baa542f42aac94548b6b188c6b5d3250665aa8d59ed6c3d",
-  "notes": "Control buttons (Start Clean, Abort, Home, Actuator, Fan, Plasma) now send reliably - they were gated behind a stale connected flag. Graph reworked: white background, dotted light-grey grid, plasma-on shown as a slim top track (not a background wash), labelled axes. Saved-run view notes when a run captured no data. Tip Charger tab renamed to Settings."
+  "installer_sha256": "58c1e07427093df7d04529b0bce58a3f381bab217415b590ad828251409aeff0",
+  "notes": "Serial Monitor now auto-scrolls to the newest line when opened (fixes 'only updates after Clear'). Connection toggle follows the real auto-detected link (shows USB Serial when connected by serial, on both Opta and Tip Charger). Data Log: fixed viewing/deleting saved runs, storage-full warning, malformed-run guard, short-run notice. Backend: firmware flashing no longer fights auto-reconnect; status parser ignores echoed commands. Tip Charger tab is now Settings (pump speeds, plasma/cooling time, brightness, vacuum) with the screen-jump buttons removed."
 }
