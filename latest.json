@@ -1,8 +1,8 @@
 {
-  "version": "1.0.24",
+  "version": "1.0.25",
   "url": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS.exe",
-  "sha256": "be6d9689e850cae0932e2664483250a0fd24b796ef40339efaee099b017acd36",
+  "sha256": "48bcf8e64f0ce6685fa2fc76e18db63f471d29e2d877654837aed0ae23c3a087",
   "installer": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS-Setup.exe",
-  "installer_sha256": "e021d41bf88298881349083a00402921a770c5b4273bfb75671e665944b5a160",
-  "notes": "Serial number now reads/writes the display too: Set on device writes into both the display (serialn.txt) and the Opta; the app shows the display's serial (source of truth) and auto-fills run names. Requires the display settings/serial firmware (compile in Workshop and flash) for the display side; the Opta side works after Update Firmware. Settings panel now applies once the display carries the W-parser firmware."
+  "installer_sha256": "768ccf8d2ef661e7c06946f9dacd986d26accd1df9e7106dc205bc44185f8a96",
+  "notes": "Single-install hardening: the Augeas certificate is trusted automatically during install (no optional checkbox), so the app and all OTA updates run with no warnings on that machine. One installer bundles everything (adb, dfu-util, arduino-cli, 4D loader, keys) - no extra tools. Connects to the Opta over USB or Ethernet, the 4D display over USB or the Waveshare bridge, and Puretip One + the Bioyond servers over USB."
 }
