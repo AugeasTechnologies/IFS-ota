@@ -1,8 +1,8 @@
 {
-  "version": "1.0.20",
+  "version": "1.0.21",
   "url": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS.exe",
-  "sha256": "b8ea0567e79e0f865220ce99cf480f8eea38a2a2adc10d9050104ff52297e138",
+  "sha256": "2e930cd68bc5e41b6d133e26adbe9e9c4ea473df8eaa6828854fb41b4ff9c07b",
   "installer": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS-Setup.exe",
-  "installer_sha256": "5ccb5238b581306e06acc34d270cddc42240d09b405dd823359e8d192d99e94f",
-  "notes": "Data Log: per-run graph of Opta thermocouple temperature and plasma power vs seconds, with plasma on/off and vacuum logged; save, clear and CSV export. De-cluttered panels. Display firmware flashing from the app."
+  "installer_sha256": "81ae740cc08e9ed49baa542f42aac94548b6b188c6b5d3250665aa8d59ed6c3d",
+  "notes": "Control buttons (Start Clean, Abort, Home, Actuator, Fan, Plasma) now send reliably - they were gated behind a stale connected flag. Graph reworked: white background, dotted light-grey grid, plasma-on shown as a slim top track (not a background wash), labelled axes. Saved-run view notes when a run captured no data. Tip Charger tab renamed to Settings."
 }
