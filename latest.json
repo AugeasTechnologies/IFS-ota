@@ -1,8 +1,8 @@
 {
-  "version": "1.0.8",
+  "version": "1.0.9",
   "url": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS.exe",
-  "sha256": "bc1f2bea2038e76b6eaa688ed5a80d10cbb61356bac858e743a1b12feba62a74",
+  "sha256": "b2159531ee01e27a6efbff94dc4ecc67c94016b6a4d81280265cc58b2dc0ba53",
   "installer": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS-Setup.exe",
-  "installer_sha256": "6a257c63a21bc088f1a454ace458355d7321a109bde5e874494318d80a2a4be1",
-  "notes": "IFS 1.0.8 - Augeas Technologies logo added (software-by branding), IonField product branding on Home; installer now detects Smart App Control and explains it instead of failing with a cryptic error. Signed (Augeas Technologies)."
+  "installer_sha256": "8b45a4cb0be8138594f7d194feecff30f138f5adb051ca83d95c6cc2e42a19ce",
+  "notes": "IFS 1.0.9 - removed the logo block from the Home header (kept the Augeas credit in the sidebar). Signed (Augeas Technologies)."
 }
