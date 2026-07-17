@@ -1,8 +1,8 @@
 {
-  "version": "1.0.23",
+  "version": "1.0.24",
   "url": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS.exe",
-  "sha256": "efc11cad3b9c8ae48b078935e03608a353a5a9e62179d5515b73616d6cc44333",
+  "sha256": "be6d9689e850cae0932e2664483250a0fd24b796ef40339efaee099b017acd36",
   "installer": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS-Setup.exe",
-  "installer_sha256": "b6f4d53210db547448a057f3c8eb13f5d3c698db96cfc5222b4854c6be03b9c6",
-  "notes": "Serial number: set a station serial number on the Opta (Data Log tab, Set on device), persisted in flash, reported in status, and auto-fills the run name. Bundled Opta firmware refreshed with audit fixes: display Fan/Actuator buttons work while in FAULT, manual fan setting sticks, abort re-arms the drive, queued display presses are not dropped. After updating the app, use Update Firmware to flash the Opta to get the firmware behavior + serial number."
+  "installer_sha256": "e021d41bf88298881349083a00402921a770c5b4273bfb75671e665944b5a160",
+  "notes": "Serial number now reads/writes the display too: Set on device writes into both the display (serialn.txt) and the Opta; the app shows the display's serial (source of truth) and auto-fills run names. Requires the display settings/serial firmware (compile in Workshop and flash) for the display side; the Opta side works after Update Firmware. Settings panel now applies once the display carries the W-parser firmware."
 }
