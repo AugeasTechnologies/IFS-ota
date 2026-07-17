@@ -1,8 +1,8 @@
 {
-  "version": "1.0.19",
+  "version": "1.0.20",
   "url": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS.exe",
-  "sha256": "58973e24c136fa91cc35cf914f861c75460df12e5989fa05e07ce112ef77dda4",
+  "sha256": "b8ea0567e79e0f865220ce99cf480f8eea38a2a2adc10d9050104ff52297e138",
   "installer": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS-Setup.exe",
-  "installer_sha256": "e013cae06cd692e45840e056c03700f5874727c338c56a99aec1cb7e148f20ce",
-  "notes": "IFS 1.0.19 - fixes the Serial Monitor going blank / UI options not responding: the Tip Charger and Puretip live streams now open only while their tab is visible, so the always-on Opta monitor stream is never starved by the browser's connection limit; SSE replay is capped so subscribing never floods. Errors now auto-clear (banner ~12s, last-fault ~30s). Clearer post-flash prompt (press the Opta RESET once if it doesn't auto-reconnect). Signed (Augeas Technologies)."
+  "installer_sha256": "5ccb5238b581306e06acc34d270cddc42240d09b405dd823359e8d192d99e94f",
+  "notes": "Data Log: per-run graph of Opta thermocouple temperature and plasma power vs seconds, with plasma on/off and vacuum logged; save, clear and CSV export. De-cluttered panels. Display firmware flashing from the app."
 }
