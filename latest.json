@@ -1,8 +1,8 @@
 {
-  "version": "1.0.13",
+  "version": "1.0.14",
   "url": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS.exe",
-  "sha256": "8d519cd5bad4d70a66fe01340a6ca57f38066c7ab28edd71b11a39e2ad46ede2",
+  "sha256": "df5b65a3e187baa89747a91dab90d83e15d61844efa26facafdf95e77a1cc6c0",
   "installer": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS-Setup.exe",
-  "installer_sha256": "5c6a24f260531800de513b8d83b32f03acfebeaa24ec42c2de20920c6f5a7da5",
-  "notes": "IFS 1.0.13 - actuator door stays OPEN and closes only once the plate is fully inside the chamber (firmware crash-guard blocks any close over an outside plate); Opta relay pin remap so relays actually switch (actuator=RELAY1, fan=RELAY2; plasma stays command-driven); auto-detect + auto-reconnect for Opta/Arduino and Silicon Labs CP210x, with remembered connections; tidier top connection bar (controls + one status line); app icon is now the IonField mark; honest Bioyond wording (servers reachable/ready, not 'bridged'). Signed (Augeas Technologies)."
+  "installer_sha256": "aad4533f24b3a45cb3eca56a025b1f7f6ef312529789ce212fec0b8138fd37a0",
+  "notes": "IFS 1.0.14 - the 4D display is now fixed at 9600 8N1 EVERYWHERE (was defaulting to 115200): hardcoded on the manual connect, the auto-connect/auto-reconnect, and the UI; any stale 115200 persisted from an older build is healed to 9600 on load. Verified on hardware (9600 = clean telemetry, 115200 = silent). Opta/servo stay 115200. Signed (Augeas Technologies)."
 }
