@@ -1,8 +1,8 @@
 {
-  "version": "1.0.17",
+  "version": "1.0.18",
   "url": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS.exe",
-  "sha256": "edac0503f7c4ae1803c2f76b7f92e33aabdf1b8f310cde2e86111ecaca3a8a73",
+  "sha256": "b61885dd342a176d49b1a94715688cd1e6b7a0b842a8e55ca75013c68040605d",
   "installer": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS-Setup.exe",
-  "installer_sha256": "e373e910eb072cbc85bc6a27fb9c4ba3d615b4d125f0d95b0338a3b7434be884",
-  "notes": "IFS 1.0.17 - DISPLAY FIRMWARE PUSH: the Tip Charger tab now has a Display firmware panel that pulls a compiled 4D display program (.4XE) from the GitHub channel, SHA-256-verifies it, and flashes the panel with 4D's bundled ScriptC over a direct 4D USB programmer (logic-only; graphics stay on the panel uSD). A publisher script packages the Workshop output automatically. Also fixes the Opta 'won't connect' stall (display-link reconnect no longer blocks the status stream) and ships the fixed Opta firmware. Signed (Augeas Technologies)."
+  "installer_sha256": "0890a0c93aefe3934af4ee07e8682f21f4b1a992cebe364348b3b078c5fbd4d5",
+  "notes": "IFS 1.0.18 - display screen buttons now drive EITHER 4D display (send both a Genie form-switch and an S<n> command); each panel acts on the one it understands. Fixed the display-firmware .cfg checksum reject (git autocrlf was mangling the text .cfg - now stored verbatim). Clarified the display tab for the two panels (Plasma StandAlone telemetry display vs Tip Charger V18 Genie). NOTE: the Plasma StandAlone display needs its screen-select firmware update (recompile in Workshop, flash via the Display firmware panel) to obey S<n>. Signed (Augeas Technologies)."
 }
