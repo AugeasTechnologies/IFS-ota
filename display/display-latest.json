@@ -1,0 +1,14 @@
+{
+    "version":  "0.1.0",
+    "name":  "plasma_display",
+    "model":  "Gen4-uLCD-50DCT (Diablo16)",
+    "processor":  "Picaso",
+    "xe":  "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/display/plasma_display.4XE",
+    "xe_sha256":  "73e8480802f986abc5e09be3912f0119ab35fbe2a469c1ded6797fa186145a0f",
+    "cfg":  "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/display/plasma_display.cfg",
+    "cfg_sha256":  "5fd070d592dfbd245948cd2b6f81f66516ed20f7f6903b27dbb4ca461b24296a",
+    "download_baud":  9600,
+    "graphics":  false,
+    "reset":  "usb-programmer",
+    "notes":  "Plasma StandAlone display 0.1.0 (logic .4XE; flash over a direct 4D USB programmer)."
+}
