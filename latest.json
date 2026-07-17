@@ -1,8 +1,8 @@
 {
-  "version": "1.0.12",
+  "version": "1.0.13",
   "url": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS.exe",
-  "sha256": "c9d85067ea67362144178d9332e0f137f1570511b3b7bedfedccec8b5a76677c",
+  "sha256": "8d519cd5bad4d70a66fe01340a6ca57f38066c7ab28edd71b11a39e2ad46ede2",
   "installer": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS-Setup.exe",
-  "installer_sha256": "e15f77193dd00201e6658ee3c6a678049cb148ac4c413cfd082d3e8a716d08b7",
-  "notes": "IFS 1.0.12 - chamber animation: door-opens-first flow (plate parks behind the sealed door, door opens, plate slides in, door shuts, plasma passes, exits), plate clears the door, centered. Signed (Augeas Technologies)."
+  "installer_sha256": "5c6a24f260531800de513b8d83b32f03acfebeaa24ec42c2de20920c6f5a7da5",
+  "notes": "IFS 1.0.13 - actuator door stays OPEN and closes only once the plate is fully inside the chamber (firmware crash-guard blocks any close over an outside plate); Opta relay pin remap so relays actually switch (actuator=RELAY1, fan=RELAY2; plasma stays command-driven); auto-detect + auto-reconnect for Opta/Arduino and Silicon Labs CP210x, with remembered connections; tidier top connection bar (controls + one status line); app icon is now the IonField mark; honest Bioyond wording (servers reachable/ready, not 'bridged'). Signed (Augeas Technologies)."
 }
