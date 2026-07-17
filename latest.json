@@ -1,8 +1,8 @@
 {
-  "version": "1.0.9",
+  "version": "1.0.10",
   "url": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS.exe",
-  "sha256": "b2159531ee01e27a6efbff94dc4ecc67c94016b6a4d81280265cc58b2dc0ba53",
+  "sha256": "f50e266bf010c840743f3437cf51c22ec77ff2017768a9f210574b9679b55b68",
   "installer": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS-Setup.exe",
-  "installer_sha256": "8b45a4cb0be8138594f7d194feecff30f138f5adb051ca83d95c6cc2e42a19ce",
-  "notes": "IFS 1.0.9 - removed the logo block from the Home header (kept the Augeas credit in the sidebar). Signed (Augeas Technologies)."
+  "installer_sha256": "c54c75abd5698a550a82541b4eb57505d871175ac5bccce3bf870aff59e47a65",
+  "notes": "IFS 1.0.10 - chamber animation: actuator DOOR that shuts to seal (label no longer hidden), plate starts fully outside and moves in, tighter/centered layout. Signed (Augeas Technologies)."
 }
