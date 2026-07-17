@@ -1,8 +1,8 @@
 {
-  "version": "1.0.10",
+  "version": "1.0.11",
   "url": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS.exe",
-  "sha256": "f50e266bf010c840743f3437cf51c22ec77ff2017768a9f210574b9679b55b68",
+  "sha256": "e24e39b9a74074b6a8ef54aea5f5be027e8879dd817711e3a9accfcab3be7011",
   "installer": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS-Setup.exe",
-  "installer_sha256": "c54c75abd5698a550a82541b4eb57505d871175ac5bccce3bf870aff59e47a65",
-  "notes": "IFS 1.0.10 - chamber animation: actuator DOOR that shuts to seal (label no longer hidden), plate starts fully outside and moves in, tighter/centered layout. Signed (Augeas Technologies)."
+  "installer_sha256": "1d083f5fb33e579cd64a5ad7c08f1ca2c7a8fcd4c12bdb258e8e4704f5a53870",
+  "notes": "IFS 1.0.11 - fixed ADB identity (ADB_VENDOR_KEYS bundled key + server restart on Connect) so a tablet that trusts it once never re-prompts for USB debugging; clearer 'Always allow' guidance. Verified whole package on real Opta hardware. Signed (Augeas Technologies)."
 }
