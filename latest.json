@@ -1,8 +1,8 @@
 {
-  "version": "1.0.14",
+  "version": "1.0.15",
   "url": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS.exe",
-  "sha256": "df5b65a3e187baa89747a91dab90d83e15d61844efa26facafdf95e77a1cc6c0",
+  "sha256": "85f4a60c8ad21df1c1af729a166de4d487d690e3518c9020e0be9d7075606d7a",
   "installer": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS-Setup.exe",
-  "installer_sha256": "aad4533f24b3a45cb3eca56a025b1f7f6ef312529789ce212fec0b8138fd37a0",
-  "notes": "IFS 1.0.14 - the 4D display is now fixed at 9600 8N1 EVERYWHERE (was defaulting to 115200): hardcoded on the manual connect, the auto-connect/auto-reconnect, and the UI; any stale 115200 persisted from an older build is healed to 9600 on load. Verified on hardware (9600 = clean telemetry, 115200 = silent). Opta/servo stay 115200. Signed (Augeas Technologies)."
+  "installer_sha256": "962c67c4a4f060682557bf9f0bd7c4bf49cd3f874d58ea91166326f4eae07674",
+  "notes": "IFS 1.0.15 - whole station standardized to 9600 8N1. The Opta USB console is now 9600 (was 115200) to match the display; the app connects, auto-connects and heals ALL serial devices (Opta + display) at 9600, and firmware SERVO_BAUD is 9600 too (set your A6 servo drive to 9600). Opta firmware ships in this build - reflash from the Firmware tab, then reset the Opta. Signed (Augeas Technologies)."
 }
