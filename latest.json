@@ -1,8 +1,8 @@
 {
-  "version": "1.0.15",
+  "version": "1.0.16",
   "url": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS.exe",
-  "sha256": "85f4a60c8ad21df1c1af729a166de4d487d690e3518c9020e0be9d7075606d7a",
+  "sha256": "b49dda90e6768cee3e1576b8fce452befb6d9c8d2e84e4a3fba17aeda4be31ac",
   "installer": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS-Setup.exe",
-  "installer_sha256": "962c67c4a4f060682557bf9f0bd7c4bf49cd3f874d58ea91166326f4eae07674",
-  "notes": "IFS 1.0.15 - whole station standardized to 9600 8N1. The Opta USB console is now 9600 (was 115200) to match the display; the app connects, auto-connects and heals ALL serial devices (Opta + display) at 9600, and firmware SERVO_BAUD is 9600 too (set your A6 servo drive to 9600). Opta firmware ships in this build - reflash from the Firmware tab, then reset the Opta. Signed (Augeas Technologies)."
+  "installer_sha256": "63715b561251c56acbcf1d772c8e1ea65eae1994ea2a4fa24e1eb8f750854446",
+  "notes": "IFS 1.0.16 - renamed to 'IFS Control Suite'. The window title now reads just IFS Control Suite (no 'Augeas Technologies' in the heading; the maker credit stays in the sidebar). No functional change from 1.0.15 (whole station 9600 8N1). Signed (Augeas Technologies)."
 }
