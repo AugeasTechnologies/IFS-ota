@@ -1,8 +1,8 @@
 {
-  "version": "1.0.18",
+  "version": "1.0.19",
   "url": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS.exe",
-  "sha256": "b61885dd342a176d49b1a94715688cd1e6b7a0b842a8e55ca75013c68040605d",
+  "sha256": "58973e24c136fa91cc35cf914f861c75460df12e5989fa05e07ce112ef77dda4",
   "installer": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS-Setup.exe",
-  "installer_sha256": "0890a0c93aefe3934af4ee07e8682f21f4b1a992cebe364348b3b078c5fbd4d5",
-  "notes": "IFS 1.0.18 - display screen buttons now drive EITHER 4D display (send both a Genie form-switch and an S<n> command); each panel acts on the one it understands. Fixed the display-firmware .cfg checksum reject (git autocrlf was mangling the text .cfg - now stored verbatim). Clarified the display tab for the two panels (Plasma StandAlone telemetry display vs Tip Charger V18 Genie). NOTE: the Plasma StandAlone display needs its screen-select firmware update (recompile in Workshop, flash via the Display firmware panel) to obey S<n>. Signed (Augeas Technologies)."
+  "installer_sha256": "e013cae06cd692e45840e056c03700f5874727c338c56a99aec1cb7e148f20ce",
+  "notes": "IFS 1.0.19 - fixes the Serial Monitor going blank / UI options not responding: the Tip Charger and Puretip live streams now open only while their tab is visible, so the always-on Opta monitor stream is never starved by the browser's connection limit; SSE replay is capped so subscribing never floods. Errors now auto-clear (banner ~12s, last-fault ~30s). Clearer post-flash prompt (press the Opta RESET once if it doesn't auto-reconnect). Signed (Augeas Technologies)."
 }
