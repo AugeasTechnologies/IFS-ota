@@ -1,8 +1,8 @@
 {
-  "version": "1.0.27",
+  "version": "1.0.28",
   "url": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS.exe",
-  "sha256": "0eddab636cf51703652617cba01c2810298fa12b2213b40283cfd975a65f7256",
+  "sha256": "8983ebdc6dd2c5a33ca8a34b5da8f84c1caf000fdab759f6e1b3263e18f811d7",
   "installer": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS-Setup.exe",
-  "installer_sha256": "01ed174d654183a82de6e215de134e4bfdd4242c6acbfd63a534c1865cd1c2ec",
-  "notes": "Opta firmware + Control Suite hardening. Serial number, taught positions and network config now PERSIST across power-off (dedicated on-board flash store, write-verified) - fixes the serial resetting to 0 and the 'flash config/position failed' errors. Hardware watchdog auto-recovers the Opta from any firmware hang (a reset forces plasma OFF, fail-safe). New 'reboot' and relay 'clicktest' console commands. App: Run recorder layout cleaned up; station serial number now reads reliably from the Opta."
+  "installer_sha256": "b1d99b6b4260f0b998f2f73cb3c4d850e83dc8639525d5954ed82a6116c73b12",
+  "notes": "One-click LOCAL display flash: 'Flash my compiled build' pushes the .4XE you just compiled in Workshop straight from the project folder over the 4D-UPA (no staging). App auto-opens the plasma overview the first time the Opta connects each session. Ships with the hardened Opta firmware (verified flash persistence, watchdog, two-pass plasma sweep, servo-ready + plate-sweep streaming to the panel, and Waveshare bridge self-heal)."
 }
