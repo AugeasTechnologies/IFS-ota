@@ -1,8 +1,8 @@
 {
-  "version": "1.0.25",
+  "version": "1.0.26",
   "url": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS.exe",
-  "sha256": "48bcf8e64f0ce6685fa2fc76e18db63f471d29e2d877654837aed0ae23c3a087",
+  "sha256": "94f803df44e31210f21d8276209786c90fa695e12f2b752f92c7510467959cc1",
   "installer": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS-Setup.exe",
-  "installer_sha256": "768ccf8d2ef661e7c06946f9dacd986d26accd1df9e7106dc205bc44185f8a96",
-  "notes": "Single-install hardening: the Augeas certificate is trusted automatically during install (no optional checkbox), so the app and all OTA updates run with no warnings on that machine. One installer bundles everything (adb, dfu-util, arduino-cli, 4D loader, keys) - no extra tools. Connects to the Opta over USB or Ethernet, the 4D display over USB or the Waveshare bridge, and Puretip One + the Bioyond servers over USB."
+  "installer_sha256": "09289929ce3e16421d64994c3fda8533f024dde8023440e298aa310546177e84",
+  "notes": "Tip Charger nav item renamed Screens -> Settings (and related labels), matching the parameters panel."
 }
