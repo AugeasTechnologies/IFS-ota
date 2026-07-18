@@ -1,8 +1,8 @@
 {
-  "version": "1.0.26",
+  "version": "1.0.27",
   "url": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS.exe",
-  "sha256": "94f803df44e31210f21d8276209786c90fa695e12f2b752f92c7510467959cc1",
+  "sha256": "0eddab636cf51703652617cba01c2810298fa12b2213b40283cfd975a65f7256",
   "installer": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS-Setup.exe",
-  "installer_sha256": "09289929ce3e16421d64994c3fda8533f024dde8023440e298aa310546177e84",
-  "notes": "Tip Charger nav item renamed Screens -> Settings (and related labels), matching the parameters panel."
+  "installer_sha256": "01ed174d654183a82de6e215de134e4bfdd4242c6acbfd63a534c1865cd1c2ec",
+  "notes": "Opta firmware + Control Suite hardening. Serial number, taught positions and network config now PERSIST across power-off (dedicated on-board flash store, write-verified) - fixes the serial resetting to 0 and the 'flash config/position failed' errors. Hardware watchdog auto-recovers the Opta from any firmware hang (a reset forces plasma OFF, fail-safe). New 'reboot' and relay 'clicktest' console commands. App: Run recorder layout cleaned up; station serial number now reads reliably from the Opta."
 }
