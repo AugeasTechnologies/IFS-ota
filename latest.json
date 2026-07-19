@@ -1,14 +1,8 @@
 {
-  "version": "1.0.31",
+  "version": "1.0.32",
   "url": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS.exe",
-  "sha256": "1a9bdb65a95f5df04a21c0828da78ca0fc10f6d07d50d22134fb2492f1f15c1f",
+  "sha256": "9a1ef47876d9812a1ef94f1e29942fb72d43c17185fb74b225eea2bf97fd72fe",
   "installer": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS-Setup.exe",
-  "installer_sha256": "c212e00f640c0469dcf9518ecaf8b48b5fd1f0eccdbee10e1a7a283e7750fb62",
-  "notes": "1.0.31: 12-fix adversarial hardening pass across Opta firmware, the 4D display, and the app.
-
-Opta: front-limit / home / actuator-feedback inputs moved onto the real Opta input terminals (I4-I8) so the safety interlock can actually read the switches; fan status LED corrected to LED_RELAY2 (it was lighting the relay-3 LED); stale plasma time-cap now cleared on plasma-off (no more false PLASMA_LOCAL_TIME_CAP); half-open display-link auto-recovery.
-
-Display: Start-Clean is no longer locked out by a dead/absent electrode thermocouple; serial plasma-fire (A/C/F/I) now gated on the safety loop with a continuous HV-off net; pump-PWM duty clamp + serial-number and plate-sweep parser overflow clamps.
-
-App: Data Log no longer records stale telemetry on a hung link; plasma-time single-sourced across the Config and Tip Charger tabs; unsaved config edits protected from background overwrite; server-side clamps on all pushed settings."
+  "installer_sha256": "041e1fe92b404e64b3c88228896a3389c2da220ac713ff9c1746c00260f6925b",
+  "notes": "1.0.32: seamless device connection + display command hygiene + manual-plasma firmware fix. App now STAYS connected to the 4D display (verify waits out the panel's reboot-on-open instead of looping); sends the Plasma StandAlone display ONLY its native ASCII commands (no binary Genie noise), with settings paced and only-the-changed-field so its one-byte-per-loop parser isn't overrun; auto-navigates to Form 4 when the plasma station comes online; the Opta is the authoritative serial source so the display's 16-bit-wrapped -31024 no longer flashes over it. Firmware: manual Plasma Request now actually sends PLASMA_GO / PLASMA_STOP to the Tip Charger (previously it only lit the indicator LED)."
 }
