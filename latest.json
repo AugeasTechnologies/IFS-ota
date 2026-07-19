@@ -1,8 +1,14 @@
 {
-  "version": "1.0.30",
+  "version": "1.0.31",
   "url": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS.exe",
-  "sha256": "727f5fd2c6aea1d3d8a3d4062d0914dfbb5f85ddc575362e7372daea62c00f75",
+  "sha256": "1a9bdb65a95f5df04a21c0828da78ca0fc10f6d07d50d22134fb2492f1f15c1f",
   "installer": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS-Setup.exe",
-  "installer_sha256": "b009eeefe3df1217479b8f261f3e24936248069a133a696acdd711357d5fc24b",
-  "notes": "1.0.30: lockable config (password 1536) with carriage positions + LEM read live from the Opta flash; plasma time propagates to the Opta, Tip Charger, and 4D display; axial case-fan icon; per-relay LED feedback (RELAY1/RELAY2) + plasma indicator moved off RELAY1's LED; removed the display self-heal that was churning the link and lagging buttons; display COM0 receive-buffer fix; plus the full 24-bug remediation."
+  "installer_sha256": "c212e00f640c0469dcf9518ecaf8b48b5fd1f0eccdbee10e1a7a283e7750fb62",
+  "notes": "1.0.31: 12-fix adversarial hardening pass across Opta firmware, the 4D display, and the app.
+
+Opta: front-limit / home / actuator-feedback inputs moved onto the real Opta input terminals (I4-I8) so the safety interlock can actually read the switches; fan status LED corrected to LED_RELAY2 (it was lighting the relay-3 LED); stale plasma time-cap now cleared on plasma-off (no more false PLASMA_LOCAL_TIME_CAP); half-open display-link auto-recovery.
+
+Display: Start-Clean is no longer locked out by a dead/absent electrode thermocouple; serial plasma-fire (A/C/F/I) now gated on the safety loop with a continuous HV-off net; pump-PWM duty clamp + serial-number and plate-sweep parser overflow clamps.
+
+App: Data Log no longer records stale telemetry on a hung link; plasma-time single-sourced across the Config and Tip Charger tabs; unsaved config edits protected from background overwrite; server-side clamps on all pushed settings."
 }
