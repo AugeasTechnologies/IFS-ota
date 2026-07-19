@@ -1,8 +1,8 @@
 {
-  "version": "1.0.32",
+  "version": "1.0.33",
   "url": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS.exe",
-  "sha256": "9a1ef47876d9812a1ef94f1e29942fb72d43c17185fb74b225eea2bf97fd72fe",
+  "sha256": "2e447f81f63b54673aee5ab6f5ab220921ac5ebdc43b3e368315eca57d256956",
   "installer": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS-Setup.exe",
-  "installer_sha256": "041e1fe92b404e64b3c88228896a3389c2da220ac713ff9c1746c00260f6925b",
-  "notes": "1.0.32: seamless device connection + display command hygiene + manual-plasma firmware fix. App now STAYS connected to the 4D display (verify waits out the panel's reboot-on-open instead of looping); sends the Plasma StandAlone display ONLY its native ASCII commands (no binary Genie noise), with settings paced and only-the-changed-field so its one-byte-per-loop parser isn't overrun; auto-navigates to Form 4 when the plasma station comes online; the Opta is the authoritative serial source so the display's 16-bit-wrapped -31024 no longer flashes over it. Firmware: manual Plasma Request now actually sends PLASMA_GO / PLASMA_STOP to the Tip Charger (previously it only lit the indicator LED)."
+  "installer_sha256": "67b293853bbc557555e58bff1b61ae03d5b6e6079e12b295174fd73224d91e92",
+  "notes": "1.0.33: LIVE display settings + banner fix. Settings now send to the display AS you change each value (debounced ~300ms, one paced command) - no Apply needed; the Apply button re-syncs everything at once. Fixed success confirmations (serial set, settings sent) that were wrongly rendered as a red Error banner - they now show a green OK. Verified the display stays connected with ZERO resets when the port isn't contended (the earlier unnecessary restarts were serial-port contention, not the display firmware)."
 }
