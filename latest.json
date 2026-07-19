@@ -1,8 +1,8 @@
 {
-  "version": "1.0.33",
+  "version": "1.0.34",
   "url": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS.exe",
-  "sha256": "2e447f81f63b54673aee5ab6f5ab220921ac5ebdc43b3e368315eca57d256956",
+  "sha256": "2818f6278c3e074f8305e6fcaecf54c2e5f83b360f5bfb79050318c82db581fa",
   "installer": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS-Setup.exe",
-  "installer_sha256": "67b293853bbc557555e58bff1b61ae03d5b6e6079e12b295174fd73224d91e92",
-  "notes": "1.0.33: LIVE display settings + banner fix. Settings now send to the display AS you change each value (debounced ~300ms, one paced command) - no Apply needed; the Apply button re-syncs everything at once. Fixed success confirmations (serial set, settings sent) that were wrongly rendered as a red Error banner - they now show a green OK. Verified the display stays connected with ZERO resets when the port isn't contended (the earlier unnecessary restarts were serial-port contention, not the display firmware)."
+  "installer_sha256": "67675086f3f862c078cb33155531813c8ff673f33be3272340e5f0d133b4a5f5",
+  "notes": "1.0.34: listen-only display + plasma routing + abort-all. The app now WRITES to the display only when you act (removed the automatic connect-poke and Form-4 nav that were flooding the panel); settings write on commit (release the slider / leave the field), not continuously while dragging. Plasma Request On/Off now sends A!/B! to the display (its PA11 plasma relay), with the display's own safety-loop gate applied. Abort now stops EVERYTHING: the Opta cycle + the Tip Charger (PLASMA_STOP over Serial2) + the display plasma relay (B!). Firmware: the Opta's abort always commands PLASMA_STOP to the Tip Charger, not only mid-cycle."
 }
