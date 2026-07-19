@@ -1,8 +1,8 @@
 {
-  "version": "1.0.28",
+  "version": "1.0.30",
   "url": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS.exe",
-  "sha256": "8983ebdc6dd2c5a33ca8a34b5da8f84c1caf000fdab759f6e1b3263e18f811d7",
+  "sha256": "727f5fd2c6aea1d3d8a3d4062d0914dfbb5f85ddc575362e7372daea62c00f75",
   "installer": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS-Setup.exe",
-  "installer_sha256": "b1d99b6b4260f0b998f2f73cb3c4d850e83dc8639525d5954ed82a6116c73b12",
-  "notes": "One-click LOCAL display flash: 'Flash my compiled build' pushes the .4XE you just compiled in Workshop straight from the project folder over the 4D-UPA (no staging). App auto-opens the plasma overview the first time the Opta connects each session. Ships with the hardened Opta firmware (verified flash persistence, watchdog, two-pass plasma sweep, servo-ready + plate-sweep streaming to the panel, and Waveshare bridge self-heal)."
+  "installer_sha256": "b009eeefe3df1217479b8f261f3e24936248069a133a696acdd711357d5fc24b",
+  "notes": "1.0.30: lockable config (password 1536) with carriage positions + LEM read live from the Opta flash; plasma time propagates to the Opta, Tip Charger, and 4D display; axial case-fan icon; per-relay LED feedback (RELAY1/RELAY2) + plasma indicator moved off RELAY1's LED; removed the display self-heal that was churning the link and lagging buttons; display COM0 receive-buffer fix; plus the full 24-bug remediation."
 }
