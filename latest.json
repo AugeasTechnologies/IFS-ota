@@ -1,8 +1,8 @@
 {
-  "version": "1.0.38",
+  "version": "1.0.39",
   "url": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS.exe",
-  "sha256": "c968cbbcfc10fb4a15626bf98854a28f7b82835e0d765dce797d7fc9c2ab5a33",
+  "sha256": "c7f140c38c846723e626d605b7bc07674df4ea2b45b372c953311ff8b18f36c5",
   "installer": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS-Setup.exe",
-  "installer_sha256": "a588a4a5f712a347221b11e09a566f5a0fcd0c942cdf598b4109df7339842ae7",
-  "notes": "1.0.38: The controller (Arduino) firmware can now be updated over the internet. The Update Firmware button pulls the latest controller firmware from the update channel, verifies it, and flashes it over USB - or falls back to the copy bundled with the app when offline. A new Check for update button shows the latest available version. That firmware has the servo drive as a direct RS485 connection. Includes the one-click-update reliability fix from 1.0.37."
+  "installer_sha256": "9485ac75b7d5d533d32b7d7a2503f98f7fd09395e33850fcb62fed7c46cbbbda",
+  "notes": "1.0.39: Makes the one-click update far more robust. The app now shuts its own background browser processes down before restarting to swap in the new version (they used to keep the program file locked), the program file is now code-signed so antivirus lets go of it faster, and the updater waits long enough for antivirus to finish scanning before giving up. If the one-click update ever stalls, the installer (IFS-Setup.exe) always applies an update cleanly. Includes the Arduino firmware over-the-internet update from 1.0.38."
 }
