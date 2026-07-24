@@ -1,8 +1,8 @@
 {
-  "version": "1.0.37",
+  "version": "1.0.38",
   "url": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS.exe",
-  "sha256": "b15fb7cc20a44c2bf2f3a89f342863cd53b8de93fcaf42da0dc1a210741eff9c",
+  "sha256": "c968cbbcfc10fb4a15626bf98854a28f7b82835e0d765dce797d7fc9c2ab5a33",
   "installer": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS-Setup.exe",
-  "installer_sha256": "f603fe9514e8005de48ab82d13652e33bf722a219b095cc78d424464c2be8650",
-  "notes": "1.0.37: Reliability fix for the one-click update itself. In rare cases the app could get stuck after 'Closing to swap...' while updating - the updater kept retrying forever if the old program file was briefly still in use, instead of giving up. It now retries for up to a minute and then safely restores the previous version if the swap cannot complete, so an update can no longer hang. It also cleans up leftover update files on start and closes the window cleanly during an update. Everything from 1.0.36 is included (clearer messages when the app cannot pick a device; supplier and model names removed from the screens; servo shown as a direct RS485 connection)."
+  "installer_sha256": "a588a4a5f712a347221b11e09a566f5a0fcd0c942cdf598b4109df7339842ae7",
+  "notes": "1.0.38: The controller (Arduino) firmware can now be updated over the internet. The Update Firmware button pulls the latest controller firmware from the update channel, verifies it, and flashes it over USB - or falls back to the copy bundled with the app when offline. A new Check for update button shows the latest available version. That firmware has the servo drive as a direct RS485 connection. Includes the one-click-update reliability fix from 1.0.37."
 }
