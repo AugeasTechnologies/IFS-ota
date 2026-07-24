@@ -1,0 +1,10 @@
+{
+  "version": "1.1.0",
+  "name": "plasma_opta",
+  "board": "Arduino Opta (mbed_opta)",
+  "bin": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/opta/plasma_opta.bin",
+  "bin_sha256": "0cb47195f0d51be6eefca406dfd046886eb78bd5569f445999b75d589a4428ee",
+  "dfu_vidpid": "0x2341:0x0364",
+  "dfu_address": "0x08040000",
+  "notes": "Opta master firmware - servo direct native RS485 (RS485-over-Ethernet removed), plain-language help, all sweep fixes. Flashed over USB by the app (1200bps touch + dfu-util)."
+}
