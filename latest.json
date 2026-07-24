@@ -1,8 +1,8 @@
 {
-  "version": "1.0.34",
+  "version": "1.0.36",
   "url": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS.exe",
-  "sha256": "2818f6278c3e074f8305e6fcaecf54c2e5f83b360f5bfb79050318c82db581fa",
+  "sha256": "50a73ae618e84ba9ea8a064cdebf6740b3eef81d605fd9d016e529ded84aa960",
   "installer": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS-Setup.exe",
-  "installer_sha256": "67675086f3f862c078cb33155531813c8ff673f33be3272340e5f0d133b4a5f5",
-  "notes": "1.0.34: listen-only display + plasma routing + abort-all. The app now WRITES to the display only when you act (removed the automatic connect-poke and Form-4 nav that were flooding the panel); settings write on commit (release the slider / leave the field), not continuously while dragging. Plasma Request On/Off now sends A!/B! to the display (its PA11 plasma relay), with the display's own safety-loop gate applied. Abort now stops EVERYTHING: the Opta cycle + the Tip Charger (PLASMA_STOP over Serial2) + the display plasma relay (B!). Firmware: the Opta's abort always commands PLASMA_STOP to the Tip Charger, not only mid-cycle."
+  "installer_sha256": "06978ac8b6dfa226b851a13f5f1bcb3c9196f643d9765621e60d5554145448a7",
+  "notes": "1.0.36: The app now tells you when it cannot pick a device. If two Tip Chargers are plugged in, or the auto-reconnect keeps failing, you get a clear message instead of the app silently not connecting. This build also carries the 1.0.35 changes that were never released: supplier and model names removed from the screens (plain descriptive labels instead), the servo drive shown as a direct RS485 connection with its own diagnostics panel (the RS232-to-Ethernet bridge option is gone), and a leftover screen-select box that did nothing has been removed."
 }
