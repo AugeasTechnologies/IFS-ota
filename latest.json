@@ -1,8 +1,8 @@
 {
-  "version": "1.0.40",
+  "version": "1.0.41",
   "url": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS.exe",
-  "sha256": "7ef5008c6e89a981f8b2494c2be73d6266d191e093dcf736545febf4f4b3d679",
+  "sha256": "6a14c6ce3a0965b626dce7f22f902d6f9e38d5e1092019e17c66331e032cf3e5",
   "installer": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS-Setup.exe",
-  "installer_sha256": "a25bd79ab67c33c6e25361cc52c64afd56352038c4ced75d31de4ee117219229",
-  "notes": "1.0.40: Adds a dedicated App update section (Firmware tab) - a Check for update button, a status pill that shows whether you are up to date or a new version is available, and an Update now button. The app also pops a one-time notification when it starts if an update is waiting. The amber Update button at the top still works too. Carries the more-robust updater and the signed program file from 1.0.39."
+  "installer_sha256": "853f6e398d68836131095bff97d632e94474a793945839858b27b24e38c6fc07",
+  "notes": "1.0.41: Visual polish of the top bar and the App update section - the status pills are now colour-coded (green up to date, amber when attention is needed), the version is shown as a clean badge, and the App update box only appears when there is actually something to report instead of sitting empty. No functional change to updating."
 }
