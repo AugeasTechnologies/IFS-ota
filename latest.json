@@ -1,8 +1,8 @@
 {
-  "version": "1.0.43",
+  "version": "1.0.44",
   "url": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS.exe",
-  "sha256": "da5c67b3e7a535d02f5c34094b88d897d5d6dc65f35ac15bc2b895d7fee8ec07",
+  "sha256": "6943fab8d3f39056544afc53b60c849a6dea36b5ece8bdde109276635fd3f0be",
   "installer": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS-Setup.exe",
-  "installer_sha256": "ae511052caa4f35c253f0f996cd949a0cc0963e288921268506930d0f27b5471",
-  "notes": "1.0.43: Display firmware now has a Download code button - it fetches just the published display program (.4XE and its .cfg) from the update channel, checks it, saves it to your Downloads, and opens the folder. Handy for archiving the code or flashing it elsewhere; it does not flash anything and needs no programmer."
+  "installer_sha256": "f2618f807ec03e6af2fc9a61a9218f02727a9af0599666f80833d864e532b840",
+  "notes": "1.0.44: Auto-recovery for a stuck display. If the Tip Charger display is connected over USB but stops responding (frozen or wedged on a blank screen), the app now hardware-resets the panel and keeps trying to connect, instead of just failing. Works on both the manual Connect and the automatic reconnect. Over the Ethernet bridge there is no reset line, so there it waits for the panel to come back."
 }
