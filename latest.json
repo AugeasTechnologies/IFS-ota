@@ -1,8 +1,8 @@
 {
-  "version": "1.0.42",
+  "version": "1.0.43",
   "url": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS.exe",
-  "sha256": "2f620a9e72e77b4b4401d20490dc2af83ddecfe32de2ffefbea79229f9664aea",
+  "sha256": "da5c67b3e7a535d02f5c34094b88d897d5d6dc65f35ac15bc2b895d7fee8ec07",
   "installer": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS-Setup.exe",
-  "installer_sha256": "3ae01639d090aa4d4cf38d386e0174d83b1942485cc111d07bca157575af3b88",
-  "notes": "1.0.42: More breathing room across the top of the app - the connection bar and buttons are less cramped, panels have more padding and clearer line spacing, and the status pill and version badge are better separated. Purely visual."
+  "installer_sha256": "ae511052caa4f35c253f0f996cd949a0cc0963e288921268506930d0f27b5471",
+  "notes": "1.0.43: Display firmware now has a Download code button - it fetches just the published display program (.4XE and its .cfg) from the update channel, checks it, saves it to your Downloads, and opens the folder. Handy for archiving the code or flashing it elsewhere; it does not flash anything and needs no programmer."
 }
