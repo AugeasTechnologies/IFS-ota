@@ -1,10 +1,10 @@
 {
-  "version": "1.1.0",
-  "name": "plasma_opta",
-  "board": "Arduino Opta (mbed_opta)",
-  "bin": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/opta/plasma_opta.bin",
-  "bin_sha256": "0cb47195f0d51be6eefca406dfd046886eb78bd5569f445999b75d589a4428ee",
-  "dfu_vidpid": "0x2341:0x0364",
-  "dfu_address": "0x08040000",
-  "notes": "Opta master firmware - servo direct native RS485 (RS485-over-Ethernet removed), plain-language help, all sweep fixes. Flashed over USB by the app (1200bps touch + dfu-util)."
+    "version":  "1.2.0",
+    "name":  "plasma_opta",
+    "board":  "Arduino Opta (mbed_opta)",
+    "bin":  "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/opta/plasma_opta.bin",
+    "bin_sha256":  "96da034bdfa23aed03c6ba529cc0518bb174829188d9ce9fe44e2f653f7ebd86",
+    "dfu_vidpid":  "0x2341:0x0364",
+    "dfu_address":  "0x08040000",
+    "notes":  "Opta master firmware 1.2.0: panel\u003c-\u003econtroller state sync (fan/actuator/Start Clean stay in sync however they are commanded), serial/manual plasma auto-times-out on the screen\u0027s plasma time, panel sends its plasma time to the controller, and a seamless 2s display reconnect that re-syncs on connect. Flashed over USB by the app."
 }
