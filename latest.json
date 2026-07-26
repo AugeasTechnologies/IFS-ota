@@ -1,8 +1,8 @@
 {
-  "version": "1.0.44",
+  "version": "1.0.45",
   "url": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS.exe",
-  "sha256": "6943fab8d3f39056544afc53b60c849a6dea36b5ece8bdde109276635fd3f0be",
+  "sha256": "5680db34c1c7a2d5cf08ca0f027b1929fd8617acd40f107133bf25e9d6238f6b",
   "installer": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS-Setup.exe",
-  "installer_sha256": "f2618f807ec03e6af2fc9a61a9218f02727a9af0599666f80833d864e532b840",
-  "notes": "1.0.44: Auto-recovery for a stuck display. If the Tip Charger display is connected over USB but stops responding (frozen or wedged on a blank screen), the app now hardware-resets the panel and keeps trying to connect, instead of just failing. Works on both the manual Connect and the automatic reconnect. Over the Ethernet bridge there is no reset line, so there it waits for the panel to come back."
+  "installer_sha256": "9f39fafce42eb8632013c277e6de40b314d651ac14c4ad4d6f40f2dbaeed434e",
+  "notes": "1.0.45: Tougher display link + all firmware updates in one place. Over Ethernet, if the display opens but stays silent (a stuck RS232-to-Ethernet converter), the app now reconnect-cycles the converter to clear its stale slot instead of failing; and a connected-but-silent link is no longer left sitting dead - it is refreshed automatically. The Display firmware update also moved to the Firmware tab, so the App, Controller, and Display updates are now together. (For a converter that keeps locking, set its Multi-host option to Yes.)"
 }
