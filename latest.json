@@ -1,8 +1,8 @@
 {
-  "version": "1.0.46",
+  "version": "1.0.47",
   "url": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS.exe",
-  "sha256": "54f8b1088136e63dfec2a3b5e6ef667ffdd824bd3c48c0fd60e1273a60bbf6ee",
+  "sha256": "737b339c6bdd68bced2f862e0bcea358fd2a5424468353b34ce14720a5866b1b",
   "installer": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS-Setup.exe",
-  "installer_sha256": "e1a14c7cec397206fc5fa6d3a99e3112bb314be53f127add79e102033c0f619f",
-  "notes": "Data Log: Export CSV now includes a per-plate heat + process analysis summary (min/max/avg/peak temperature, plasma-on time, peak & average power, delivered energy, average vacuum) alongside the raw time series."
+  "installer_sha256": "226bfa35d451bce6b2b8e58fc6796ce5f6d95f136aad0bb634eab25a90a5b028",
+  "notes": "Labware formats + built-in barcode scanner. Config tab: pick the labware being cleaned (full ANSI/SLAS family - 6/12/24/48/96/384/1536-well plates incl. deep-well and PCR, 96/384/1536-pin replicators, 96/384 tip racks, reservoir, custom); each format saves its own recipe (carriage positions + plasma time) and tags the run. Data Log: built-in generic USB barcode scanner support (keyboard/HID, zero setup) fills the run name and starts a tagged run; labware now appears in runs and in the CSV analysis export."
 }
