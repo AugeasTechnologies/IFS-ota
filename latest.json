@@ -1,8 +1,8 @@
 {
-  "version": "1.0.47",
+  "version": "1.0.48",
   "url": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS.exe",
-  "sha256": "737b339c6bdd68bced2f862e0bcea358fd2a5424468353b34ce14720a5866b1b",
+  "sha256": "181431d446fcee442cdfd2fc5e7313b757dcc20e03ac7e889b0d6750b6898c06",
   "installer": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS-Setup.exe",
-  "installer_sha256": "226bfa35d451bce6b2b8e58fc6796ce5f6d95f136aad0bb634eab25a90a5b028",
-  "notes": "Labware formats + built-in barcode scanner. Config tab: pick the labware being cleaned (full ANSI/SLAS family - 6/12/24/48/96/384/1536-well plates incl. deep-well and PCR, 96/384/1536-pin replicators, 96/384 tip racks, reservoir, custom); each format saves its own recipe (carriage positions + plasma time) and tags the run. Data Log: built-in generic USB barcode scanner support (keyboard/HID, zero setup) fills the run name and starts a tagged run; labware now appears in runs and in the CSV analysis export."
+  "installer_sha256": "743d871e6f6b52ed071331d379df74f9ee41a7b420a6d7f65333949fa7f3b1ff",
+  "notes": "Labware catalog expanded to 26 formats (added 24/384 deep-well, 96 half-area, 96 filter/membrane, 96 full-skirted PCR, PCR 8-tube strips, plus microscope slide / slide rack / coverslip). New: serial (virtual-COM) barcode scanner support on the Data Log tab - pick the scanner's COM port and Connect; its port is reserved so auto-connect never mistakes it for the display or controller. Serial scans funnel through the same handler as the built-in USB HID scanner (fill run name, start a tagged run)."
 }
