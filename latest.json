@@ -1,8 +1,8 @@
 {
-  "version": "1.0.45",
+  "version": "1.0.46",
   "url": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS.exe",
-  "sha256": "5680db34c1c7a2d5cf08ca0f027b1929fd8617acd40f107133bf25e9d6238f6b",
+  "sha256": "54f8b1088136e63dfec2a3b5e6ef667ffdd824bd3c48c0fd60e1273a60bbf6ee",
   "installer": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS-Setup.exe",
-  "installer_sha256": "9f39fafce42eb8632013c277e6de40b314d651ac14c4ad4d6f40f2dbaeed434e",
-  "notes": "1.0.45: Tougher display link + all firmware updates in one place. Over Ethernet, if the display opens but stays silent (a stuck RS232-to-Ethernet converter), the app now reconnect-cycles the converter to clear its stale slot instead of failing; and a connected-but-silent link is no longer left sitting dead - it is refreshed automatically. The Display firmware update also moved to the Firmware tab, so the App, Controller, and Display updates are now together. (For a converter that keeps locking, set its Multi-host option to Yes.)"
+  "installer_sha256": "e1a14c7cec397206fc5fa6d3a99e3112bb314be53f127add79e102033c0f619f",
+  "notes": "Data Log: Export CSV now includes a per-plate heat + process analysis summary (min/max/avg/peak temperature, plasma-on time, peak & average power, delivered energy, average vacuum) alongside the raw time series."
 }
