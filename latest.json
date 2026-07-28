@@ -1,8 +1,8 @@
 {
-  "version": "1.0.49",
+  "version": "1.0.50",
   "url": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS.exe",
-  "sha256": "4560ccbc3724e4c43ab0912170bf1c71f5aedeacb96588da2e6377885f84932a",
+  "sha256": "fb84e4598773cdf2bb0aadd1e93fcd937f110de11104f461fe0c5aa5247f19c7",
   "installer": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS-Setup.exe",
-  "installer_sha256": "f5be54c67e511449033d5179ea2b5e2b702b494fafbd4e73842ab7a0691ce8bf",
-  "notes": "Fix: the in-app updater showed a perpetual 'update available' that never took. The published exe's internal version lagged the manifest by one (a build/version-bump ordering slip), so an updated app still reported the older version and re-offered the same update forever. This build bakes the correct version. Also includes 1.0.46-1.0.48: CSV heat/process analysis export, 26 labware formats with per-format recipes, and USB-HID + serial barcode scanner support."
+  "installer_sha256": "df43773f9aee7f21ce3f5cfbb84e36d516c1988ba40648a95a275972c57d3053",
+  "notes": "Barcode scanner reworked into plate identification. On Configuration - Labware format there is now a scanner connection (serial port + Connect + Test read + status, like the device connections) plus a learn-once barcode-to-format map: scan a plate and the app selects its microplate format automatically and loads that format's recipe; teach a new plate with Assign last scan. USB keyboard-mode scanners work with no connection. Also fixed: the dropdown arrow no longer overlaps long selected text in any select."
 }
