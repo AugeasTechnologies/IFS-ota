@@ -1,8 +1,8 @@
 {
-  "version": "1.0.50",
+  "version": "1.0.51",
   "url": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS.exe",
-  "sha256": "fb84e4598773cdf2bb0aadd1e93fcd937f110de11104f461fe0c5aa5247f19c7",
+  "sha256": "2719ea937ca79603ce144b99d397b1139271412f0653c4026a122ed0232d3a5c",
   "installer": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS-Setup.exe",
-  "installer_sha256": "df43773f9aee7f21ce3f5cfbb84e36d516c1988ba40648a95a275972c57d3053",
-  "notes": "Barcode scanner reworked into plate identification. On Configuration - Labware format there is now a scanner connection (serial port + Connect + Test read + status, like the device connections) plus a learn-once barcode-to-format map: scan a plate and the app selects its microplate format automatically and loads that format's recipe; teach a new plate with Assign last scan. USB keyboard-mode scanners work with no connection. Also fixed: the dropdown arrow no longer overlaps long selected text in any select."
+  "installer_sha256": "bff4df8167742a47a4ab7c47d8e9634954decab3cd4aaa1b2c073f7ca24235d0",
+  "notes": "Barcode plate-ID enhancements. Match rules: map a whole family of plate barcodes to a format with one rule (Starts with / Contains) instead of assigning each barcode - a scan resolves as exact assignment first, then the most-specific rule. Export / Import labware config: save all recipes, barcode assignments and match rules to a JSON file and load them on another station."
 }
