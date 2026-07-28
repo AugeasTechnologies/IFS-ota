@@ -1,8 +1,8 @@
 {
-  "version": "1.0.51",
+  "version": "1.0.52",
   "url": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS.exe",
-  "sha256": "2719ea937ca79603ce144b99d397b1139271412f0653c4026a122ed0232d3a5c",
+  "sha256": "b425740ba30c4cf50d9014dd4cf646b82d18d5e23b1c50d3601995055cdd7bd3",
   "installer": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS-Setup.exe",
-  "installer_sha256": "bff4df8167742a47a4ab7c47d8e9634954decab3cd4aaa1b2c073f7ca24235d0",
-  "notes": "Barcode plate-ID enhancements. Match rules: map a whole family of plate barcodes to a format with one rule (Starts with / Contains) instead of assigning each barcode - a scan resolves as exact assignment first, then the most-specific rule. Export / Import labware config: save all recipes, barcode assignments and match rules to a JSON file and load them on another station."
+  "installer_sha256": "82f4aa600dcfd8d4b3394ff1e69d79c5ab6704f1ecdb6e9ff7e9c08162224a45",
+  "notes": "Matcher extensions for unusual barcodes. Regex match rules (a third rule type alongside Starts with / Contains; the pattern is validated before it is saved). Opt-in auto-detect: when no assignment or rule matches, pull the well count (6/12/24/48/96/384/1536) out of the barcode and select that microplate - the number must be delimited so an embedded serial like 0096 never false-matches."
 }
