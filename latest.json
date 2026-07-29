@@ -1,8 +1,8 @@
 {
-  "version": "1.0.55",
+  "version": "1.0.57",
   "url": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS.exe",
-  "sha256": "aeb13a2e52dec28c7b67dce03e9f600de1c16dbc9bea186bd1bae16dc49131c7",
+  "sha256": "42ac3aef7bf59f95e5bb79e6f6a2dc4bf1451ec3a6df2d58ea1858e1d2865e4e",
   "installer": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS-Setup.exe",
-  "installer_sha256": "6ab5a5334d95e25e12b91064033ed9af3a51fdd2160804e365d31ff5a52b8716",
-  "notes": "Fix: clicking the Tuning nav item did nothing (it silently redirected Home) because the 'tune' view was not registered in the view map. Registered it, so Tuning now opens correctly and shows the live Power/electrode-temp/vacuum graph."
+  "installer_sha256": "17a326d3f55ad8df4d104ce605f025b5ed8f25d4d652c3300cd62fc6a81bb62a",
+  "notes": "OTA self-update fix. The update swap batch runs with no console, where 'timeout' fails instantly instead of waiting - which collapsed the 5-minute retry window to milliseconds and rolled back before the exe's brief post-exit lock cleared, so the update 'ran' but nothing changed. Switched the delays to 'ping' (works without a console) so the swap actually completes, and added a result marker so a rolled-back update reports itself instead of failing silently."
 }
