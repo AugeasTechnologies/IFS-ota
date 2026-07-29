@@ -1,8 +1,8 @@
 {
-  "version": "1.0.52",
+  "version": "1.0.53",
   "url": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS.exe",
-  "sha256": "b425740ba30c4cf50d9014dd4cf646b82d18d5e23b1c50d3601995055cdd7bd3",
+  "sha256": "e4707f2962df0152964038e3aea9c2a8b47ada4449e140b89c15990723909e95",
   "installer": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS-Setup.exe",
-  "installer_sha256": "82f4aa600dcfd8d4b3394ff1e69d79c5ab6704f1ecdb6e9ff7e9c08162224a45",
-  "notes": "Matcher extensions for unusual barcodes. Regex match rules (a third rule type alongside Starts with / Contains; the pattern is validated before it is saved). Opt-in auto-detect: when no assignment or rule matches, pull the well count (6/12/24/48/96/384/1536) out of the barcode and select that microplate - the number must be delimited so an embedded serial like 0096 never false-matches."
+  "installer_sha256": "8845ab087dd65ae7bf56b5fa3a5e6eca7f73d3e8716970d1a1be23a2e8cea497",
+  "notes": "New Tuning page (under Plasma StandAlone): a live scope of Power, electrode Temperature and Vacuum flow streamed from the Tip Charger's USB-to-RS232 port (the Power,Temp,Vac CSV). Three independently auto-scaled lines with a selectable time window, big current-value readouts, and a per-second delta on each - so you can adjust frequency/voltage and watch the response in real time."
 }
