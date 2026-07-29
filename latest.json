@@ -1,8 +1,8 @@
 {
-  "version": "1.0.54",
+  "version": "1.0.55",
   "url": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS.exe",
-  "sha256": "758a63e4baa7980395d39560cb719a01ac40fb83461c8615c133e5c0f6e58754",
+  "sha256": "aeb13a2e52dec28c7b67dce03e9f600de1c16dbc9bea186bd1bae16dc49131c7",
   "installer": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS-Setup.exe",
-  "installer_sha256": "0f3ca4a3670f7f32d038ba7812109b37f40e70d5e4382f481fc927849f7c4d7b",
-  "notes": "Tuning + Tip Charger auto-connect. The Tip Charger / display now auto-connects over any common USB-to-RS232 converter (CP210x, FTDI, Prolific, CH340) - previously only CP210x was recognized - so the Tuning page gets its live Power/Temp/Vac feed with no manual Connect. The connect check still requires the device to actually stream, so a non-streaming adapter is ignored, not driven. Tuning page also redraws immediately when opened."
+  "installer_sha256": "6ab5a5334d95e25e12b91064033ed9af3a51fdd2160804e365d31ff5a52b8716",
+  "notes": "Fix: clicking the Tuning nav item did nothing (it silently redirected Home) because the 'tune' view was not registered in the view map. Registered it, so Tuning now opens correctly and shows the live Power/electrode-temp/vacuum graph."
 }
