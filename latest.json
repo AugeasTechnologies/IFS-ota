@@ -1,8 +1,8 @@
 {
-  "version": "1.0.60",
+  "version": "1.0.61",
   "url": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS.exe",
-  "sha256": "09dab814fa5bb8b8bde2f501e65d8b96d6b2085145055af106f7233bff9218f7",
+  "sha256": "b7109cbc100f07ca6a43ac4adc7f2e212f32254c1e8da6224166e398b803db2e",
   "installer": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS-Setup.exe",
-  "installer_sha256": "1a7db978dd8bf89ca15c655ed20847e2d240f4c238a807d536c2361edacf32cc",
-  "notes": "OTA swap diagnostics build."
+  "installer_sha256": "937b1aa0afedba59095a663bf83cb3324c25f053b0ccc924e081c39dfc5448e8",
+  "notes": "OTA self-update now actually completes (this was the real 'says updating but nothing changes' bug). Rebuilt the swap after testing it end-to-end against a real locked 26 MB exe: 'errorlevel' after 'move' is unreliable in a console-less batch (so it neither swapped nor rolled back - it just died), and goto-inside-parens corrupts cmd parsing. The swap now uses flat control flow and detects success by whether the new file was consumed by the move - proven to complete. Install this build once (manually) to get onto the fixed updater; updates from here on will apply on their own."
 }
