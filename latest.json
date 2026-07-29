@@ -1,8 +1,8 @@
 {
-  "version": "1.0.53",
+  "version": "1.0.54",
   "url": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS.exe",
-  "sha256": "e4707f2962df0152964038e3aea9c2a8b47ada4449e140b89c15990723909e95",
+  "sha256": "758a63e4baa7980395d39560cb719a01ac40fb83461c8615c133e5c0f6e58754",
   "installer": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS-Setup.exe",
-  "installer_sha256": "8845ab087dd65ae7bf56b5fa3a5e6eca7f73d3e8716970d1a1be23a2e8cea497",
-  "notes": "New Tuning page (under Plasma StandAlone): a live scope of Power, electrode Temperature and Vacuum flow streamed from the Tip Charger's USB-to-RS232 port (the Power,Temp,Vac CSV). Three independently auto-scaled lines with a selectable time window, big current-value readouts, and a per-second delta on each - so you can adjust frequency/voltage and watch the response in real time."
+  "installer_sha256": "0f3ca4a3670f7f32d038ba7812109b37f40e70d5e4382f481fc927849f7c4d7b",
+  "notes": "Tuning + Tip Charger auto-connect. The Tip Charger / display now auto-connects over any common USB-to-RS232 converter (CP210x, FTDI, Prolific, CH340) - previously only CP210x was recognized - so the Tuning page gets its live Power/Temp/Vac feed with no manual Connect. The connect check still requires the device to actually stream, so a non-streaming adapter is ignored, not driven. Tuning page also redraws immediately when opened."
 }
