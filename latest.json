@@ -1,8 +1,8 @@
 {
-  "version": "1.0.62",
+  "version": "1.0.63",
   "url": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS.exe",
-  "sha256": "c72f62ea2084daeb838236f2bb0375ce5fb03fcb05a5ad2d28a3629a61837e65",
+  "sha256": "6faa9f2f283da8647a8d49fbd194327cb678b1c5b995573f74eea6eb2b994ab1",
   "installer": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS-Setup.exe",
-  "installer_sha256": "3566433c4911ece2366ea3a0e318c608fd1a255353da39b04ac43b06f071370f",
-  "notes": "Tuning page: added a Tip Charger USB dropdown. When more than one Tip Charger is plugged in (auto-connect won't guess between them), pick the one you want from the list - it shows each port with its adapter description - and press Connect; a Rescan button refreshes the list, and it shows the connected port and whether it is live. Builds on the fixed OTA updater from 1.0.61."
+  "installer_sha256": "a77a1f53186fbcfb9c398a97ba6d0dcafc57b02fb5ef5df59b4804dbbe717d61",
+  "notes": "Tuning page manual controls: added Start pump / Stop pump buttons alongside Start plasma / Stop plasma. Plasma sends A!/B! (always active); pump sends b/a, which the panel only acts on when Serial Control is enabled on it. New /api/tc/pump endpoint."
 }
