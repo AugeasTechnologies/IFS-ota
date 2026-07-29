@@ -1,8 +1,8 @@
 {
-  "version": "1.0.57",
+  "version": "1.0.58",
   "url": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS.exe",
-  "sha256": "42ac3aef7bf59f95e5bb79e6f6a2dc4bf1451ec3a6df2d58ea1858e1d2865e4e",
+  "sha256": "8fa79ef51f29f62bdddca6b3b1b35f525d402c9c4b4c38fe93267417586029b2",
   "installer": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS-Setup.exe",
-  "installer_sha256": "17a326d3f55ad8df4d104ce605f025b5ed8f25d4d652c3300cd62fc6a81bb62a",
-  "notes": "OTA self-update fix. The update swap batch runs with no console, where 'timeout' fails instantly instead of waiting - which collapsed the 5-minute retry window to milliseconds and rolled back before the exe's brief post-exit lock cleared, so the update 'ran' but nothing changed. Switched the delays to 'ping' (works without a console) so the swap actually completes, and added a result marker so a rolled-back update reports itself instead of failing silently."
+  "installer_sha256": "afb5ccb3830c93847361d2275bfc1e940fb1f643081090963e2bf9ce00dabf68",
+  "notes": "Update notifications are now informational, not alarming: an available update shows a calm blue 'Update' banner and pill (it used to fire the red 'Error' banner and amber warning styling). Includes the OTA self-update fix from 1.0.57 (ping-based swap delays so the update actually completes instead of silently rolling back) and a result marker so a failed swap reports itself."
 }
