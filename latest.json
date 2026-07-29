@@ -1,8 +1,8 @@
 {
-  "version": "1.0.59",
+  "version": "1.0.60",
   "url": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS.exe",
-  "sha256": "f33e28c3541ecd41c6152808953677ad8cf893cc83e0bb80a9d600c45b66ac13",
+  "sha256": "09dab814fa5bb8b8bde2f501e65d8b96d6b2085145055af106f7233bff9218f7",
   "installer": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS-Setup.exe",
-  "installer_sha256": "f6deb5a207afe7aaa6e7e222e16cbf4385154c7e19731ed1fa76f776ff586d05",
-  "notes": "Interactive frequency tuning on the Tuning page. Build a frequency sweep (start/end/step), and for each frequency: Show frequency screen (navigates the 4D panel so you set it), then Run point - the app reads the electrode temp, fires plasma for the plasma time while tracking peak wattage, reads the temp again (delta-T), logs the row, and cools - then steps to the next frequency. Live editable sweep table, delta-T-vs-frequency and wattage-vs-frequency charts, recommended frequency (max heating), and Export report CSV. Plasma ON/OFF buttons and a big E-STOP that cuts plasma and pump (and aborts the Opta) immediately."
+  "installer_sha256": "1a7db978dd8bf89ca15c655ed20847e2d240f4c238a807d536c2361edacf32cc",
+  "notes": "OTA swap diagnostics build."
 }
