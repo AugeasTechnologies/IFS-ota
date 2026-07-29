@@ -1,8 +1,8 @@
 {
-  "version": "1.0.61",
+  "version": "1.0.62",
   "url": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS.exe",
-  "sha256": "b7109cbc100f07ca6a43ac4adc7f2e212f32254c1e8da6224166e398b803db2e",
+  "sha256": "c72f62ea2084daeb838236f2bb0375ce5fb03fcb05a5ad2d28a3629a61837e65",
   "installer": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS-Setup.exe",
-  "installer_sha256": "937b1aa0afedba59095a663bf83cb3324c25f053b0ccc924e081c39dfc5448e8",
-  "notes": "OTA self-update now actually completes (this was the real 'says updating but nothing changes' bug). Rebuilt the swap after testing it end-to-end against a real locked 26 MB exe: 'errorlevel' after 'move' is unreliable in a console-less batch (so it neither swapped nor rolled back - it just died), and goto-inside-parens corrupts cmd parsing. The swap now uses flat control flow and detects success by whether the new file was consumed by the move - proven to complete. Install this build once (manually) to get onto the fixed updater; updates from here on will apply on their own."
+  "installer_sha256": "3566433c4911ece2366ea3a0e318c608fd1a255353da39b04ac43b06f071370f",
+  "notes": "Tuning page: added a Tip Charger USB dropdown. When more than one Tip Charger is plugged in (auto-connect won't guess between them), pick the one you want from the list - it shows each port with its adapter description - and press Connect; a Rescan button refreshes the list, and it shows the connected port and whether it is live. Builds on the fixed OTA updater from 1.0.61."
 }
