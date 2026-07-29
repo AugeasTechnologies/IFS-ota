@@ -1,10 +1,10 @@
 {
-    "version":  "1.2.0",
+    "version":  "1.3.0",
     "name":  "plasma_opta",
     "board":  "Arduino Opta (mbed_opta)",
     "bin":  "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/opta/plasma_opta.bin",
-    "bin_sha256":  "96da034bdfa23aed03c6ba529cc0518bb174829188d9ce9fe44e2f653f7ebd86",
+    "bin_sha256":  "fb036df92300d1bbc1af6ef78249f93d383c8d27ee42739f5269a46d177c8275",
     "dfu_vidpid":  "0x2341:0x0364",
     "dfu_address":  "0x08040000",
-    "notes":  "Opta master firmware 1.2.0: panel\u003c-\u003econtroller state sync (fan/actuator/Start Clean stay in sync however they are commanded), serial/manual plasma auto-times-out on the screen\u0027s plasma time, panel sends its plasma time to the controller, and a seamless 2s display reconnect that re-syncs on connect. Flashed over USB by the app."
+    "notes":  "Opta master firmware 1.3.0: servo RS485 AUTO-BAUD. The controller now auto-detects the servo drive\u0027s baud rate at boot (the A6-RS ships at 115200; the station standard is 9600) and adopts whichever answers, so a stock drive links with no drive reconfiguration - fixes the common no-reply / DRIVE_CONFIGURATION_FAILED. Also tightens the RS485 turnaround and adds a \u0027servoscan\u0027 console command. Flashed over USB by the app."
 }
