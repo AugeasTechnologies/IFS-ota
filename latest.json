@@ -1,8 +1,8 @@
 {
-  "version": "1.0.64",
+  "version": "1.0.66",
   "url": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS.exe",
-  "sha256": "7ce643c3bae230ac009da46a80236ea30492ba4a9129ccca6bd8cb1b5f922938",
+  "sha256": "02378b9bc12868ee21cef0906bd30028cb3b46236b64db816e4552c9dce779a6",
   "installer": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS-Setup.exe",
   "installer_sha256": "skip",
-  "notes": "Self-update end-to-end verification build."
+  "notes": "Self-update relaunch fix (Defender scan of the fresh exe was stalling the relaunch)."
 }
