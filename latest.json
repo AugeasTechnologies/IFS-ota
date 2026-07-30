@@ -1,8 +1,8 @@
 {
-  "version": "1.0.70",
+  "version": "1.0.72",
   "url": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS.exe",
-  "sha256": "1c441b718fe4e7b5f9b66a0ec35b0ce04a3952cf82360e2bbb0770086b00da16",
+  "sha256": "3a62179a1086845266731dcf656b0ae38d329a7fc02123eb580d3fdff8999cd8",
   "installer": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS-Setup.exe",
-  "installer_sha256": "9f3cf2a6b511d5b4fa03ce1a6a5e550b905504761f9611d17222e21051bacb57",
-  "notes": "Test the real OTA: from 1.0.69 this should download, close, and reopen on 1.0.70 on its own."
+  "installer_sha256": "3a62179a1086845266731dcf656b0ae38d329a7fc02123eb580d3fdff8999cd8",
+  "notes": "Seamless self-updating: the app now verifies it has reopened after an update and heals itself if the first relaunch stalls."
 }
