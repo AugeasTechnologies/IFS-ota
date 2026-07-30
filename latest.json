@@ -1,8 +1,8 @@
 {
-  "version": "1.0.68",
+  "version": "1.0.69",
   "url": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS.exe",
-  "sha256": "a6b0bc433254d4c21373364210f1948ee0fc5c8fb29b95f84290d46f35882386",
+  "sha256": "fae487a45aa3dd0618000951863639d759a4d309da5646fe870dc18769cf5772",
   "installer": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS-Setup.exe",
-  "installer_sha256": "87d2dc0b551ca323453b73258200770391e8f20c6c7e496a23c0b94355f0685e",
-  "notes": "Bug-fix pass on the Tuning page. Manual Start/Stop plasma and Start/Stop pump now report the real result - they no longer show a green 'sent' confirmation when the Tip Charger is not connected (the command actually failed). E-STOP likewise tells you if nothing was sent because no Tip Charger is connected. The frequency-sweep builder now refuses an over-1000-step sweep from bad input instead of freezing the UI."
+  "installer_sha256": "9f3cf2a6b511d5b4fa03ce1a6a5e550b905504761f9611d17222e21051bacb57",
+  "notes": "Trimmed verbose text on the Tuning and Labware screens for a cleaner look. Device detection broadened to legacy USB-serial chips (CP210x, FTDI, Prolific, CH34x/CH9102, MCP2200, Exar, STM VCP) and native/legacy hardware RS232 COM ports, so the Tip Charger / display auto-connects over any converter; the connect check still requires a real data stream."
 }
