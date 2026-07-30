@@ -1,8 +1,8 @@
 {
-  "version": "1.0.67",
+  "version": "1.0.68",
   "url": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS.exe",
-  "sha256": "645cfb46a375f7aadcbe2a2140c1a0d631ad8e222a99482457c5efb5400e3d0e",
+  "sha256": "a6b0bc433254d4c21373364210f1948ee0fc5c8fb29b95f84290d46f35882386",
   "installer": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS-Setup.exe",
-  "installer_sha256": "833da19c992050c4e3e2146c09a8274c989063cf6f14d35815e7a049a397a478",
-  "notes": "OTA self-update now fully completes end-to-end (swap AND relaunch). Root cause of 'update runs but the app stays old': after the file swap, launching the just-written 26 MB exe immediately stalls its loader because Windows Defender scans a freshly-written exe on first run - launching mid-scan left the process alive but its server never bound. Fix: after the swap, force the AV scan to finish first (read the whole file), settle, then relaunch (with a second attempt as backup). Verified: the file swaps to the new version AND the app reopens on it."
+  "installer_sha256": "87d2dc0b551ca323453b73258200770391e8f20c6c7e496a23c0b94355f0685e",
+  "notes": "Bug-fix pass on the Tuning page. Manual Start/Stop plasma and Start/Stop pump now report the real result - they no longer show a green 'sent' confirmation when the Tip Charger is not connected (the command actually failed). E-STOP likewise tells you if nothing was sent because no Tip Charger is connected. The frequency-sweep builder now refuses an over-1000-step sweep from bad input instead of freezing the UI."
 }
