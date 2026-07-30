@@ -1,8 +1,8 @@
 {
-  "version": "1.0.78",
+  "version": "1.0.70",
   "url": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS.exe",
-  "sha256": "927e8e7bb0a2711d24933a2a991685b1d3355433769befb90587912acaef6f05",
+  "sha256": "1c441b718fe4e7b5f9b66a0ec35b0ce04a3952cf82360e2bbb0770086b00da16",
   "installer": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS-Setup.exe",
-  "installer_sha256": "927e8e7bb0a2711d24933a2a991685b1d3355433769befb90587912acaef6f05",
-  "notes": "The app now reliably closes and reopens itself on the new version after an update."
+  "installer_sha256": "1c441b718fe4e7b5f9b66a0ec35b0ce04a3952cf82360e2bbb0770086b00da16",
+  "notes": "Current release."
 }
