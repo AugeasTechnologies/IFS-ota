@@ -1,8 +1,8 @@
 {
-  "version": "1.0.63",
+  "version": "1.0.64",
   "url": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS.exe",
-  "sha256": "6faa9f2f283da8647a8d49fbd194327cb678b1c5b995573f74eea6eb2b994ab1",
+  "sha256": "7ce643c3bae230ac009da46a80236ea30492ba4a9129ccca6bd8cb1b5f922938",
   "installer": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS-Setup.exe",
-  "installer_sha256": "a77a1f53186fbcfb9c398a97ba6d0dcafc57b02fb5ef5df59b4804dbbe717d61",
-  "notes": "Tuning page manual controls: added Start pump / Stop pump buttons alongside Start plasma / Stop plasma. Plasma sends A!/B! (always active); pump sends b/a, which the panel only acts on when Serial Control is enabled on it. New /api/tc/pump endpoint."
+  "installer_sha256": "skip",
+  "notes": "Self-update end-to-end verification build."
 }
