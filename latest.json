@@ -1,8 +1,8 @@
 {
-  "version": "1.0.74",
+  "version": "1.0.76",
   "url": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS.exe",
-  "sha256": "3a9baca7ccfc6323830b0fe4fa38f67cc0a419cccfc67a6f11d4a44924e00170",
+  "sha256": "de11de1610183a3aaf6473043ea4f50671b0f07e6a30e10a21e3f7b5902db2f2",
   "installer": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS-Setup.exe",
-  "installer_sha256": "3a9baca7ccfc6323830b0fe4fa38f67cc0a419cccfc67a6f11d4a44924e00170",
-  "notes": "Reliable auto-reopen after update: the app now retries binding its local port so it always comes back on the new version, and the updater verifies the window returned before finishing."
+  "installer_sha256": "de11de1610183a3aaf6473043ea4f50671b0f07e6a30e10a21e3f7b5902db2f2",
+  "notes": "diagnostic build"
 }
