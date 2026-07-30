@@ -1,8 +1,8 @@
 {
-  "version": "1.0.69",
+  "version": "1.0.70",
   "url": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS.exe",
-  "sha256": "fae487a45aa3dd0618000951863639d759a4d309da5646fe870dc18769cf5772",
+  "sha256": "1c441b718fe4e7b5f9b66a0ec35b0ce04a3952cf82360e2bbb0770086b00da16",
   "installer": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS-Setup.exe",
   "installer_sha256": "9f3cf2a6b511d5b4fa03ce1a6a5e550b905504761f9611d17222e21051bacb57",
-  "notes": "Trimmed verbose text on the Tuning and Labware screens for a cleaner look. Device detection broadened to legacy USB-serial chips (CP210x, FTDI, Prolific, CH34x/CH9102, MCP2200, Exar, STM VCP) and native/legacy hardware RS232 COM ports, so the Tip Charger / display auto-connects over any converter; the connect check still requires a real data stream."
+  "notes": "Test the real OTA: from 1.0.69 this should download, close, and reopen on 1.0.70 on its own."
 }
