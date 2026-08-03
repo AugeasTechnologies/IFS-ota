@@ -1,8 +1,8 @@
 {
-  "version": "1.0.79",
+  "version": "1.0.80",
   "url": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS.exe",
-  "sha256": "4c10d69511d516aff135b9d705b9a0a123e3465208b8b3f691791b98952ac1a6",
+  "sha256": "41a7f7d4fc03a9c5ec26776eb20d7ff765f4b3f3b53f4553dd941117d31751d4",
   "installer": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS-Setup.exe",
-  "installer_sha256": "a745e9be9a2b8b7a1aa9bbd4be3f5e90f970490424ae1fd0b313f072e3c690bf",
-  "notes": "Update reliability: the app now reopens itself correctly after updating (relaunches via a clean method and retries its port), and machines with Windows Smart App Control are handled gracefully instead of failing."
+  "installer_sha256": "30d7d5b6cae9ba2a2262a7e8c5ae74dd91042b1f5d787a56fefc89ceb6d1b579",
+  "notes": "Tuning and Display firmware are now under the Tip Charger section."
 }
