@@ -5,6 +5,21 @@ source is private in `AugeasTechnologies/PlasmaKnife`).
 
 The app checks `latest.json` on launch and self-updates when a newer version is published.
 
+## What's in this repo — one file per purpose
+
+| File | Purpose |
+|------|---------|
+| `IFS.exe` | The app itself. Portable use: just download and run. Also what the self-updater fetches. |
+| `IFS-Setup.exe` | The installer (Start menu, Add/Remove Programs, auto-launch watcher). |
+| `opta/plasma_opta.bin` | Opta station firmware, flashed by the app over USB. |
+| `display/plasma_display.4XE` + `.cfg` | Station touch-panel firmware, flashed via a 4D programmer. |
+| `latest.json`, `opta/opta-latest.json`, `display/display-latest.json` | The manifests: version, download URL, sha256, source stamp. |
+
+There are deliberately **no zip copies**: the 2026-08-18 audit found `IFS-portable.zip` /
+`IFS-Setup.zip` still carrying the 1.0.79 build two weeks after 1.0.80 shipped — duplicate
+artifacts drift. If someone needs a zip, they can zip the exe themselves; the files above are
+the only release artifacts.
+
 ## Releasing a new version
 1. Bump `APP_VERSION` in the app's `backend.py` and rebuild `IFS.exe` (`build.ps1`).
 2. Copy the new `IFS.exe` here, and bump `version` (+ `notes`) in `latest.json`.
