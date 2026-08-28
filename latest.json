@@ -1,8 +1,11 @@
 {
-  "version": "1.0.80",
+  "version": "1.0.81",
   "url": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS.exe",
-  "sha256": "41a7f7d4fc03a9c5ec26776eb20d7ff765f4b3f3b53f4553dd941117d31751d4",
+  "sha256": "c456d05166b10a49e2652397f1dbc765deb1105217e52e5349a582e0fd6c97be",
   "installer": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS-Setup.exe",
   "installer_sha256": "30d7d5b6cae9ba2a2262a7e8c5ae74dd91042b1f5d787a56fefc89ceb6d1b579",
-  "notes": "Tuning and Display firmware are now under the Tip Charger section."
+  "installer_version": "1.0.80",
+  "notes": "Home now draws a live communication map of the whole stack - Opta, display, Puretip, Bioyond and the update channel - green when a link is up, red when it is down. New Live View tab for the Puretip process and the Bioyond cell. Boot splash while the app unpacks. Update fixes: verified-CA fallback, downloads time out instead of hanging forever, and a read-only app folder is detected before downloading rather than after.",
+  "source_repo": "AugeasTechnologies/PlasmaKnife",
+  "source_commit": "84fbcd3af25d947371b0395afad95a4391c25a56"
 }
