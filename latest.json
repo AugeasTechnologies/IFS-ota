@@ -1,11 +1,11 @@
 {
-  "version": "1.0.82",
+  "version": "1.0.83",
   "url": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS.exe",
-  "sha256": "316db43a380ecef049b00b15694bc71cd6d8e46324db0128605dbfd73609ca5a",
+  "sha256": "5acb8aff5aeb92d534f46471e35d1a5a9ed48f428c19d4dd0bdcce365ae6ecdc",
   "installer": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS-Setup.exe",
-  "installer_sha256": "1d14c40ec2f53e668394b653f27b48e03d38cc94593e7c657efa4249e7ce1393",
-  "installer_version": "1.0.82",
-  "notes": "Home's communication map is now interactive: click any device to jump straight to its tab, with softer status cards and smoother transitions. Live View draws Puretip One as the gantry it really is - the head moves only up and down its column while the deck slides each station underneath - and both panels have a Show animation button that runs a sample cycle with no hardware attached. The Bioyond cell plan is now editable: drag, resize, rename, add and delete your own fixtures and the layout is kept on this PC.",
+  "installer_sha256": "74647b5913df025f2cece3c8facfa2e1a91551f727684cc57c510d862da4aa31",
+  "installer_version": "1.0.83",
+  "notes": "Live View: the Puretip station that was labelled Clean / rinse is PLASMA, and now draws a discharge instead of droplets. The Bioyond cell is drawn properly - a two-link arm that reaches from the base to the tool position the robot reports, gripper jaws that hold the plate while it is carried, the fixture under the tool lit up, and a motion trail. The cell plan is yours to draw: drag, resize, rename, add and delete fixtures. On Home, the communication map calls the panel the Tip Charger and every device opens its own tab.",
   "source_repo": "AugeasTechnologies/PlasmaKnife",
-  "source_commit": "0efacfc7703d9d3f92be1066003026e498fe939b"
+  "source_commit": "fc6c53035db06646f1783f8afcd7ea2a843f415a"
 }
