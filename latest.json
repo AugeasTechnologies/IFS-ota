@@ -1,11 +1,11 @@
 {
-  "version": "1.0.88",
+  "version": "1.0.89",
   "url": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS.exe",
-  "sha256": "8b1d93a87e9c56709a0936aca793e8f31c9b72e4564b68e00491d7401eb2cf7a",
+  "sha256": "54693eebb80f653825bda1ac553fbfc50f09a76e296b8f857a72bfa945147497",
   "installer": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS-Setup.exe",
-  "installer_sha256": "a55e9d1a746fef299b960330c51aad4269e4ccc5b0cfa056c2355e704dfb996f",
-  "installer_version": "1.0.88",
-  "notes": "Live View: the Puretip deck is the three treatment stations it should always have been - Misting, Rinser and the Tip Charger plasma station - with no load port, and the tips now arrive on the head when the Bioyond handler places them. The plate transfer moves smoothly: each leg is a timed ease that completes instead of being cut off. Both panels are the same size.",
+  "installer_sha256": "3deaa8852d694dcd2abe4e69a8f00567ffa32be8acca9155fe1bfd22517c26b5",
+  "installer_version": "1.0.89",
+  "notes": "A proper splash on launch - IonField Systems branding with the PureTIP One station - and the app window now carries the IFS icon instead of a generic one. Live View corrections from 1.0.88 included.",
   "source_repo": "AugeasTechnologies/PlasmaKnife",
-  "source_commit": "e0d22d7057cf0de66ca4dd5f2441fb96740a9a83"
+  "source_commit": "ad5a408774979d150a62c4e290a64a12cc9e42a1"
 }
