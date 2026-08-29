@@ -1,11 +1,11 @@
 {
-  "version": "1.0.99",
+  "version": "1.0.100",
   "url": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS.exe",
-  "sha256": "02c996406748b7db26068cef418f909ca6aaf190d36745d32d121b18728fa078",
+  "sha256": "891110fbd73e7933e0ccffd09d1b86d27b00fadafa626db0714c463c913c33f1",
   "installer": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS-Setup.exe",
-  "installer_sha256": "e0560545eb234d8ece639c5816fdfd91c94432e1ab334a9a181e1e65e4ad9af3",
-  "installer_version": "1.0.99",
-  "notes": "Saved cell layouts are no longer discarded on restart. Malformed requests no longer crash six endpoints, and the config files survive concurrent writes instead of failing or losing a save silently. Splash logos reverse correctly on the dark ground.",
+  "installer_sha256": "31381968e7337b8a9c5b870274398a75cbb7fd785cb75822ec583b1f1560838e",
+  "installer_version": "1.0.100",
+  "notes": "A second copy of IFS opens straight away instead of stalling for twenty seconds on a port that is already served. Version comparison no longer collapses a suffixed version to zero, and the update channel check rejects traversal.",
   "source_repo": "AugeasTechnologies/PlasmaKnife",
-  "source_commit": "85a544bd4d764757989a782338a0f434d0c98346"
+  "source_commit": "58efb72500dbd098d76bba0ef685daf6d32b3686"
 }
