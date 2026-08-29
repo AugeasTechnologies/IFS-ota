@@ -1,11 +1,11 @@
 {
-  "version": "1.0.90",
+  "version": "1.0.92",
   "url": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS.exe",
-  "sha256": "9aa98438ee8eff213555e7fcce865aa9873a7a551c756a406d8e930186109c64",
+  "sha256": "76d43f595ea336efb1070516ee98e367e26788f8f96854f0c1a9da0b0b78f77e",
   "installer": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS-Setup.exe",
-  "installer_sha256": "b46a463288b805095cc5ebafa64a62e5a9d4dd59e94a2dd8cbe890d32625edcd",
-  "installer_version": "1.0.90",
-  "notes": "The dashboard map drops the update channel and instead shows the link that matters: the Tip Charger reaching the app through the Plasma StandAlone over Serial2, for stations where it is not plugged into the PC. Live View no longer shifts while a cycle runs, the Puretip gantry is drawn a third larger, and the cell handler is a three-axis arm with continuous motion.",
+  "installer_sha256": "92af4c09dbe89043cd13c3a07b051bf4d7834de39d652402f1f764223becd7c3",
+  "installer_version": "1.0.92",
+  "notes": "Reduced text throughout. Every panel that carried a paragraph explaining itself now shows one line, or nothing. Controls and readouts are unchanged.",
   "source_repo": "AugeasTechnologies/PlasmaKnife",
-  "source_commit": "e66cfe8effb16ac4ac651ffc01b89e9335bcf492"
+  "source_commit": "6ad9d99e4ba08b036c60ed447f54e46ecb6305cc"
 }
