@@ -7,5 +7,5 @@
   "installer_version": "1.0.93",
   "notes": "The Bioyond cell is drawn from the front, so the Z you see is the Z the robot reports and the fork stops on the surface under it. The arm stays inside the cell and lifts before it crosses. Puretip One has a longer column, and the handler now mounts and removes the tips. Links named for what they are: USB to the PC, Ethernet over serial between the Tip Charger and the Plasma StandAlone, with its own live state.",
   "source_repo": "AugeasTechnologies/PlasmaKnife",
-  "source_commit": "fd655e8383f217471ff4585824f5b47eb36f8b8d"
+  "source_commit": "fa73d421babe652887c95ee8d9ccd5fd03fa7066"
 }
