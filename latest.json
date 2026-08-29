@@ -1,11 +1,11 @@
 {
-  "version": "1.0.100",
+  "version": "1.0.101",
   "url": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS.exe",
-  "sha256": "891110fbd73e7933e0ccffd09d1b86d27b00fadafa626db0714c463c913c33f1",
+  "sha256": "76f99439f622468b5eb835574f03b3f152972548e1b541645130c7ea43522352",
   "installer": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS-Setup.exe",
-  "installer_sha256": "31381968e7337b8a9c5b870274398a75cbb7fd785cb75822ec583b1f1560838e",
-  "installer_version": "1.0.100",
-  "notes": "A second copy of IFS opens straight away instead of stalling for twenty seconds on a port that is already served. Version comparison no longer collapses a suffixed version to zero, and the update channel check rejects traversal.",
+  "installer_sha256": "a25e26a778c80ea40d3449ed5308c1765c136d9b4acd936fe80d841c95d70094",
+  "installer_version": "1.0.101",
+  "notes": "Lines you send now read properly in the Puretip console - they were near-invisible on the light background. CSV exports quote correctly, so a run name with a quote or a comma survives the trip to a spreadsheet.",
   "source_repo": "AugeasTechnologies/PlasmaKnife",
-  "source_commit": "58efb72500dbd098d76bba0ef685daf6d32b3686"
+  "source_commit": "248664e862dae9ab7dd46bfc37d8ad013a0d1937"
 }
