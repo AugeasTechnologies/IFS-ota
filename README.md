@@ -41,13 +41,15 @@ unrebuildable (this happened: app 1.0.0→1.0.80 and panel 0.2.0 shipped from un
 | `display/plasma_display.4XE` | `Plasma-StandAlone-V0.1` |
 
 Current stamp status: `opta-latest.json` is stamped (1.3.0 = `opta-plasma-firmware@4c9477d`) and
-`latest.json` is stamped (app 1.0.81 = `PlasmaKnife@84fbcd3`, the first app release built from
+`latest.json` is stamped (app 1.0.82 = `PlasmaKnife@0efacfc`; 1.0.81 was the first app release built from
 committed source). Display 0.2.0 is still **not committed** — stamp it as part of catching that
 repo up.
 
-`latest.json` also carries **`installer_version`**, because `IFS-Setup.exe` is built by a separate
-tool and can lag `IFS.exe` — it does right now (installer 1.0.80, app 1.0.81). A machine whose app
-folder is read-only updates through the installer, so an installer older than the version being
-offered would install a downgrade and then be offered the same update again on every launch. The
-app refuses that and names the installer to ask for. **Rebuild the installer and bump
-`installer_version` whenever you ship an app release**, or that path stays closed.
+`latest.json` also carries **`installer_version`**. A machine whose app folder is read-only (a
+Program Files install run by a normal user) updates *through* the installer, so an installer older
+than the version being offered would install a downgrade and then be offered the same update again
+on every launch — a silent loop. The app refuses that and names the installer to ask for.
+
+As of 1.0.82 `build.ps1` builds and signs `IFS-Setup.exe` itself from the same `$ver` (the `.iss`
+takes `/DAppVersion=` and no longer hardcodes a number), so the two cannot drift apart. If ISCC is
+missing on the build machine the script says so and warns you **not** to raise `installer_version`.

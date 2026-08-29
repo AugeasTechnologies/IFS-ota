@@ -1,11 +1,11 @@
 {
-  "version": "1.0.81",
+  "version": "1.0.82",
   "url": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS.exe",
-  "sha256": "c456d05166b10a49e2652397f1dbc765deb1105217e52e5349a582e0fd6c97be",
+  "sha256": "316db43a380ecef049b00b15694bc71cd6d8e46324db0128605dbfd73609ca5a",
   "installer": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS-Setup.exe",
-  "installer_sha256": "30d7d5b6cae9ba2a2262a7e8c5ae74dd91042b1f5d787a56fefc89ceb6d1b579",
-  "installer_version": "1.0.80",
-  "notes": "Home now draws a live communication map of the whole stack - Opta, display, Puretip, Bioyond and the update channel - green when a link is up, red when it is down. New Live View tab for the Puretip process and the Bioyond cell. Boot splash while the app unpacks. Update fixes: verified-CA fallback, downloads time out instead of hanging forever, and a read-only app folder is detected before downloading rather than after.",
+  "installer_sha256": "1d14c40ec2f53e668394b653f27b48e03d38cc94593e7c657efa4249e7ce1393",
+  "installer_version": "1.0.82",
+  "notes": "Home's communication map is now interactive: click any device to jump straight to its tab, with softer status cards and smoother transitions. Live View draws Puretip One as the gantry it really is - the head moves only up and down its column while the deck slides each station underneath - and both panels have a Show animation button that runs a sample cycle with no hardware attached. The Bioyond cell plan is now editable: drag, resize, rename, add and delete your own fixtures and the layout is kept on this PC.",
   "source_repo": "AugeasTechnologies/PlasmaKnife",
-  "source_commit": "84fbcd3af25d947371b0395afad95a4391c25a56"
+  "source_commit": "0efacfc7703d9d3f92be1066003026e498fe939b"
 }
