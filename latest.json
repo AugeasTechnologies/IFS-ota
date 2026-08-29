@@ -7,5 +7,5 @@
   "installer_version": "1.0.94",
   "notes": "Traffic shows on the links themselves: each one pulses as that device's data lands, so a green line means connected and a pulsing line means talking. The frame list under the map is gone. The splash stays up long enough to read and credits Powered by Augeas Technologies.",
   "source_repo": "AugeasTechnologies/PlasmaKnife",
-  "source_commit": "4a6372cf836a895975504348dc37b080ac297387"
+  "source_commit": "ae661c3a25bcaf548fffc7064118f0c82221b014"
 }
