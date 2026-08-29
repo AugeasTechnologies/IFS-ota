@@ -1,11 +1,11 @@
 {
-  "version": "1.0.95",
+  "version": "1.0.96",
   "url": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS.exe",
-  "sha256": "c886b3fa73aae9b5f3c87a698f93a5061ad95f58d8f7f0ff6e09eff3ead55a80",
+  "sha256": "3d6a97c56d09dc561f6614453dc0414a109d90496527a70dd1dd7a7fba722fcc",
   "installer": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS-Setup.exe",
-  "installer_sha256": "f2a6386a136e3367aeff9e7e575b517c2a76038b59fe7b2cd8379cbd5c1483d8",
-  "installer_version": "1.0.95",
-  "notes": "The station in the cell is drawn as a pin tool extractor rather than a rotating wheel. The splash carries a 3D render of the machine again. The map drops the legend note.",
+  "installer_sha256": "7c3feee8312fbe2d03d05406af20e15a81522d3dc6a4915fd618bf9b00e4c98e",
+  "installer_version": "1.0.96",
+  "notes": "The Bioyond cell is drawn as a machine rather than a sketch, and the fork no longer jumps as it crosses a station edge. Rinser is Rinse. The splash carries a real hero image of the tips in the plasma.",
   "source_repo": "AugeasTechnologies/PlasmaKnife",
-  "source_commit": "8a7d05dddab7ed27870cbd2a3916412cae5cf648"
+  "source_commit": "7738f89f03a9535291639893194afac768cc2af3"
 }
