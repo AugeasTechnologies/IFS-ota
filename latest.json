@@ -1,11 +1,11 @@
 {
-  "version": "1.0.102",
+  "version": "1.0.103",
   "url": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS.exe",
-  "sha256": "7865aa00b5031276f7c8ead8962412bcf419992c6b050af113aea74fcc080b24",
+  "sha256": "82188df980b1becdc1bdfc16f080a4dd3f33c844555fab7862b9b6c4f916cdbd",
   "installer": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS-Setup.exe",
-  "installer_sha256": "058b631caf736649d54fbdd4be9c1e178e049bc034bbaf8d2860011023c9778f",
-  "installer_version": "1.0.102",
-  "notes": "Clicking the shortcut while IFS is already open now brings its window to the front instead of appearing to do nothing. The splash is drawn at 2x and is sharp on a high-resolution display. The cell demo runs a full round trip to Puretip One and back.",
+  "installer_sha256": "d84db31f253e122a44d9b21a74d9256c55d8ada710fc4057d3f9deb16d4bad9a",
+  "installer_version": "1.0.103",
+  "notes": "Move a station in the cell editor and the arm now goes to where it is, following it even mid-move. Keyboard focus is visible in every text field, and the locked configuration fields explain why they are locked.",
   "source_repo": "AugeasTechnologies/PlasmaKnife",
-  "source_commit": "80fcfc821a6c7f85a3c764ffbfe3293e0d38699b"
+  "source_commit": "e78e8823091aeadc38612365b157023f1c326289"
 }
