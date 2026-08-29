@@ -1,11 +1,11 @@
 {
-  "version": "1.0.86",
+  "version": "1.0.87",
   "url": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS.exe",
-  "sha256": "ea28b54ff960724d85a9d05fdd2135aec5f3f176ada11c43bb7828a37045edd7",
+  "sha256": "04b19e16a358cb02cd4cd6ab6bc6a41f29d5e564e5adfd69a4c3af568e14e331",
   "installer": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS-Setup.exe",
-  "installer_sha256": "734f0e8570807abb402215b89a94a7f261625906d3f49db47eb8ac746bb42216",
-  "installer_version": "1.0.86",
-  "notes": "Live View graphics reworked. Puretip One is drawn as the machine - body, panel, rails, carriage - with the deck carrying Misting, the Rinser, the Tip Charger plasma station and the load port where the handler leaves the tip rack. The Bioyond cell has fixture labels inside their bays, a height gauge that fills downward as the tool descends, and an arm that parks clear of every fixture.",
+  "installer_sha256": "7a515f3db1ce3e11bdcfac6d238b6e0c77b8e0f6f1a9cf8daa8883e1fff5dfe0",
+  "installer_version": "1.0.87",
+  "notes": "The IonField Systems and Augeas Technologies lockup now shows inside the app on every launch, not only in the packaged exe's unpack splash - so it appears however the station is started. The splash artwork is larger and properly credits both. Live View: the Puretip panel's paragraph is gone, since the drawing labels its own stations.",
   "source_repo": "AugeasTechnologies/PlasmaKnife",
-  "source_commit": "d17c0a937241d6dcc0abdc636caa28b653aae400"
+  "source_commit": "37e917473762f58731935c7f2efff7304d9b0f2c"
 }
