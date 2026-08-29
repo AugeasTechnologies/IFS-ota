@@ -1,11 +1,11 @@
 {
-  "version": "1.0.93",
+  "version": "1.0.94",
   "url": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS.exe",
-  "sha256": "1fef78097b4dc455822ee01299068167551421556e682070eb780bdc3b66721f",
+  "sha256": "b9eba61b5073a4937e72602fbe4c653dd85013c1878a1f6622b1e8cffb8c560a",
   "installer": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS-Setup.exe",
-  "installer_sha256": "016120ffb9a93db4da985c1f7ef9f813a7550653e68a6ccf7abc5b0013f5696d",
-  "installer_version": "1.0.93",
-  "notes": "The Bioyond cell is drawn from the front, so the Z you see is the Z the robot reports and the fork stops on the surface under it. The arm stays inside the cell and lifts before it crosses. Puretip One has a longer column, and the handler now mounts and removes the tips. Links named for what they are: USB to the PC, Ethernet over serial between the Tip Charger and the Plasma StandAlone, with its own live state.",
+  "installer_sha256": "786b1e07e867a0f51080442f45da99a87a4ad4d5add8eda7a6c767368cb3d673",
+  "installer_version": "1.0.94",
+  "notes": "Traffic shows on the links themselves: each one pulses as that device's data lands, so a green line means connected and a pulsing line means talking. The frame list under the map is gone. The splash stays up long enough to read and credits Powered by Augeas Technologies.",
   "source_repo": "AugeasTechnologies/PlasmaKnife",
-  "source_commit": "fa73d421babe652887c95ee8d9ccd5fd03fa7066"
+  "source_commit": "4a6372cf836a895975504348dc37b080ac297387"
 }
