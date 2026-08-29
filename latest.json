@@ -1,11 +1,11 @@
 {
-  "version": "1.0.83",
+  "version": "1.0.84",
   "url": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS.exe",
-  "sha256": "5acb8aff5aeb92d534f46471e35d1a5a9ed48f428c19d4dd0bdcce365ae6ecdc",
+  "sha256": "2d992ac6bc6bfa990e1570ee9912ab45a826c68cbe637e05191d7ac48d26b1ce",
   "installer": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS-Setup.exe",
-  "installer_sha256": "74647b5913df025f2cece3c8facfa2e1a91551f727684cc57c510d862da4aa31",
-  "installer_version": "1.0.83",
-  "notes": "Live View: the Puretip station that was labelled Clean / rinse is PLASMA, and now draws a discharge instead of droplets. The Bioyond cell is drawn properly - a two-link arm that reaches from the base to the tool position the robot reports, gripper jaws that hold the plate while it is carried, the fixture under the tool lit up, and a motion trail. The cell plan is yours to draw: drag, resize, rename, add and delete fixtures. On Home, the communication map calls the panel the Tip Charger and every device opens its own tab.",
+  "installer_sha256": "8fd6461fdbf406c327d3bad0c9c394289c827dedca324782c01bf0c970ac2a48",
+  "installer_version": "1.0.84",
+  "notes": "Stations now report to the fleet list: version and which of the six links are up, every five minutes, so Augeas can see the fleet without visiting each machine. Name your station under Configuration - it also shows the station ID and lets you turn reporting off. Only version and link state are sent; never process data or recipes.",
   "source_repo": "AugeasTechnologies/PlasmaKnife",
-  "source_commit": "fc6c53035db06646f1783f8afcd7ea2a843f415a"
+  "source_commit": "2b426e30f16a11ecfc314dd96c04574909d4267c"
 }
