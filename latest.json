@@ -1,11 +1,11 @@
 {
-  "version": "1.0.92",
+  "version": "1.0.93",
   "url": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS.exe",
-  "sha256": "76d43f595ea336efb1070516ee98e367e26788f8f96854f0c1a9da0b0b78f77e",
+  "sha256": "1fef78097b4dc455822ee01299068167551421556e682070eb780bdc3b66721f",
   "installer": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS-Setup.exe",
-  "installer_sha256": "92af4c09dbe89043cd13c3a07b051bf4d7834de39d652402f1f764223becd7c3",
-  "installer_version": "1.0.92",
-  "notes": "Reduced text throughout. Every panel that carried a paragraph explaining itself now shows one line, or nothing. Controls and readouts are unchanged.",
+  "installer_sha256": "016120ffb9a93db4da985c1f7ef9f813a7550653e68a6ccf7abc5b0013f5696d",
+  "installer_version": "1.0.93",
+  "notes": "The Bioyond cell is drawn from the front, so the Z you see is the Z the robot reports and the fork stops on the surface under it. The arm stays inside the cell and lifts before it crosses. Puretip One has a longer column, and the handler now mounts and removes the tips. Links named for what they are: USB to the PC, Ethernet over serial between the Tip Charger and the Plasma StandAlone, with its own live state.",
   "source_repo": "AugeasTechnologies/PlasmaKnife",
-  "source_commit": "6ad9d99e4ba08b036c60ed447f54e46ecb6305cc"
+  "source_commit": "fd655e8383f217471ff4585824f5b47eb36f8b8d"
 }
