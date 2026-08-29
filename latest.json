@@ -1,11 +1,11 @@
 {
-  "version": "1.0.84",
+  "version": "1.0.85",
   "url": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS.exe",
-  "sha256": "2d992ac6bc6bfa990e1570ee9912ab45a826c68cbe637e05191d7ac48d26b1ce",
+  "sha256": "9a6e289a1db5c660707793e83650fce8d466e061aa8b9c45ab1a62dd847e8c10",
   "installer": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS-Setup.exe",
-  "installer_sha256": "8fd6461fdbf406c327d3bad0c9c394289c827dedca324782c01bf0c970ac2a48",
-  "installer_version": "1.0.84",
-  "notes": "Stations now report to the fleet list: version and which of the six links are up, every five minutes, so Augeas can see the fleet without visiting each machine. Name your station under Configuration - it also shows the station ID and lets you turn reporting off. Only version and link state are sent; never process data or recipes.",
+  "installer_sha256": "7dceaeb498b951cb27a4211324b1a54c9186a76d7139b612c0e71be151663c7f",
+  "installer_version": "1.0.85",
+  "notes": "Live View redrawn against the real machines. Puretip One: the deck is Misting, Rinser and the Tip Charger plasma station, with a load port where the Bioyond handler delivers the tip rack - the head lifts the tips out of it there and carries them through each station. Bioyond cell: the handler is drawn as the SCARA it is, with a flat fork that slides under a plate and turns to face where it is going.",
   "source_repo": "AugeasTechnologies/PlasmaKnife",
-  "source_commit": "2b426e30f16a11ecfc314dd96c04574909d4267c"
+  "source_commit": "bd4911530863de8467e543991b2f298c15c84da3"
 }
