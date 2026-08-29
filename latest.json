@@ -1,11 +1,11 @@
 {
-  "version": "1.0.96",
+  "version": "1.0.97",
   "url": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS.exe",
-  "sha256": "3d6a97c56d09dc561f6614453dc0414a109d90496527a70dd1dd7a7fba722fcc",
+  "sha256": "b2a49c1e4d35ef789ab88d61805311a1c3abfdd58024c955923cd45df1fd2358",
   "installer": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS-Setup.exe",
-  "installer_sha256": "7c3feee8312fbe2d03d05406af20e15a81522d3dc6a4915fd618bf9b00e4c98e",
-  "installer_version": "1.0.96",
-  "notes": "The Bioyond cell is drawn as a machine rather than a sketch, and the fork no longer jumps as it crosses a station edge. Rinser is Rinse. The splash carries a real hero image of the tips in the plasma.",
+  "installer_sha256": "afa2686082a8697791dbb517c2f7ad764b5fd81fc572dc9f0ef4bdf644ed3a14",
+  "installer_version": "1.0.97",
+  "notes": "New splash built from IonField's own product banner, a lighter palette, and controls that line up across every tab. The carousel turns instead of floating, the three stations line up evenly, and the seven cycle stages sit on one row.",
   "source_repo": "AugeasTechnologies/PlasmaKnife",
-  "source_commit": "7738f89f03a9535291639893194afac768cc2af3"
+  "source_commit": "af454870d65ef8357ee5670df8376cbdbc8415b3"
 }
