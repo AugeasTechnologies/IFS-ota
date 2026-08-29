@@ -1,11 +1,11 @@
 {
-  "version": "1.0.98",
+  "version": "1.0.99",
   "url": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS.exe",
-  "sha256": "e3d1bcbef796b3984379ddb028f3059c796c6166bceb7b8ba34b3959365f8707",
+  "sha256": "02c996406748b7db26068cef418f909ca6aaf190d36745d32d121b18728fa078",
   "installer": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS-Setup.exe",
-  "installer_sha256": "a28fe9eb6682f75c3d9397874c957d8ecbef7933c70c7ac0bd6524afa9db900b",
-  "installer_version": "1.0.98",
-  "notes": "The Puretip deck sits lower with a longer Z stroke to match, and both Live View lanes are framed evenly - the cell's station names were sitting on its border.",
+  "installer_sha256": "e0560545eb234d8ece639c5816fdfd91c94432e1ab334a9a181e1e65e4ad9af3",
+  "installer_version": "1.0.99",
+  "notes": "Saved cell layouts are no longer discarded on restart. Malformed requests no longer crash six endpoints, and the config files survive concurrent writes instead of failing or losing a save silently. Splash logos reverse correctly on the dark ground.",
   "source_repo": "AugeasTechnologies/PlasmaKnife",
-  "source_commit": "a8ba4d686830151f6b87cbcbc7fbe632a938ef47"
+  "source_commit": "85a544bd4d764757989a782338a0f434d0c98346"
 }
