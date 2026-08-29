@@ -1,11 +1,11 @@
 {
-  "version": "1.0.94",
+  "version": "1.0.95",
   "url": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS.exe",
-  "sha256": "b9eba61b5073a4937e72602fbe4c653dd85013c1878a1f6622b1e8cffb8c560a",
+  "sha256": "c886b3fa73aae9b5f3c87a698f93a5061ad95f58d8f7f0ff6e09eff3ead55a80",
   "installer": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS-Setup.exe",
-  "installer_sha256": "786b1e07e867a0f51080442f45da99a87a4ad4d5add8eda7a6c767368cb3d673",
-  "installer_version": "1.0.94",
-  "notes": "Traffic shows on the links themselves: each one pulses as that device's data lands, so a green line means connected and a pulsing line means talking. The frame list under the map is gone. The splash stays up long enough to read and credits Powered by Augeas Technologies.",
+  "installer_sha256": "f2a6386a136e3367aeff9e7e575b517c2a76038b59fe7b2cd8379cbd5c1483d8",
+  "installer_version": "1.0.95",
+  "notes": "The station in the cell is drawn as a pin tool extractor rather than a rotating wheel. The splash carries a 3D render of the machine again. The map drops the legend note.",
   "source_repo": "AugeasTechnologies/PlasmaKnife",
-  "source_commit": "ae661c3a25bcaf548fffc7064118f0c82221b014"
+  "source_commit": "8a7d05dddab7ed27870cbd2a3916412cae5cf648"
 }
