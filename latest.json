@@ -1,11 +1,11 @@
 {
-  "version": "1.0.87",
+  "version": "1.0.88",
   "url": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS.exe",
-  "sha256": "04b19e16a358cb02cd4cd6ab6bc6a41f29d5e564e5adfd69a4c3af568e14e331",
+  "sha256": "8b1d93a87e9c56709a0936aca793e8f31c9b72e4564b68e00491d7401eb2cf7a",
   "installer": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS-Setup.exe",
-  "installer_sha256": "7a515f3db1ce3e11bdcfac6d238b6e0c77b8e0f6f1a9cf8daa8883e1fff5dfe0",
-  "installer_version": "1.0.87",
-  "notes": "The IonField Systems and Augeas Technologies lockup now shows inside the app on every launch, not only in the packaged exe's unpack splash - so it appears however the station is started. The splash artwork is larger and properly credits both. Live View: the Puretip panel's paragraph is gone, since the drawing labels its own stations.",
+  "installer_sha256": "a55e9d1a746fef299b960330c51aad4269e4ccc5b0cfa056c2355e704dfb996f",
+  "installer_version": "1.0.88",
+  "notes": "Live View: the Puretip deck is the three treatment stations it should always have been - Misting, Rinser and the Tip Charger plasma station - with no load port, and the tips now arrive on the head when the Bioyond handler places them. The plate transfer moves smoothly: each leg is a timed ease that completes instead of being cut off. Both panels are the same size.",
   "source_repo": "AugeasTechnologies/PlasmaKnife",
-  "source_commit": "37e917473762f58731935c7f2efff7304d9b0f2c"
+  "source_commit": "e0d22d7057cf0de66ca4dd5f2441fb96740a9a83"
 }
