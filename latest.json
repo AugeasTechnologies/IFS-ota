@@ -1,14 +1,14 @@
 {
-  "version": "1.0.112",
+  "version": "1.0.113",
   "url": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS.exe",
-  "sha256": "a5606f754166043877346b089bdf10c1f2e896a7b26cbe9dfc6226417d615d17",
+  "sha256": "219eeaf4d9b116f7870cc1fd39e88e0d292567ea6bc603b83e5d64180c59a9ee",
   "installer": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS-Setup.exe",
-  "installer_sha256": "a2add392efbc111afffd72439dba3ace2cbbfd6cc04b562e5dd774da5752b30d",
-  "installer_version": "1.0.112",
-  "notes": "Protocol gains undo, save as, a filter over the steps, and repeat blocks that are stepped in so the shape of a run is legible. Leaving with unsaved steps now asks, and a run in progress is picked up by any window rather than lost.",
+  "installer_sha256": "8b213da3e91653ce83cb81cb65aedcd625123f691557e3e99e824e8222bcd9fd",
+  "installer_version": "1.0.113",
+  "notes": "A workspace is now really a folder you browse to, and its protocols live there. Workspaces can be renamed, moved and removed, with the administrator password required to remove one. An unregistered badge opens the account form with the card attached, and the next swipe signs that person in.",
   "source_repo": "AugeasTechnologies/PlasmaKnife",
-  "source_commit": "efb2174980618c58eebd988e06412b54adc5c879",
+  "source_commit": "c634c63071538466b98038d979d8269f98402729",
   "bundle": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS-Control-Suite.zip",
-  "bundle_sha256": "f5f6fa18140defa4d1ee92db4f81330c5eae657a021d54594b95eb0155aadfcf",
-  "bundle_version": "1.0.112"
+  "bundle_sha256": "bd1e6e64c2d2132e2f567494965ab5b33c7906e5ec1be773e2c6374fd88ac539",
+  "bundle_version": "1.0.113"
 }
