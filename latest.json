@@ -1,14 +1,14 @@
 {
-  "version": "1.0.117",
+  "version": "1.0.118",
   "url": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS.exe",
-  "sha256": "008f39b49475b19199b9fa197748242c82007664d7f3277d6e5237085fb2a2d8",
+  "sha256": "688c7b1c6f36cd62cb90ca9abcda5ed647d55809e9e2cfa115f9a561bfaa2646",
   "installer": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS-Setup.exe",
-  "installer_sha256": "5e4e2908b5dca4804a42c0a5b32ea9edcbdd3ff687fa4702b7e8986a113385d5",
-  "installer_version": "1.0.117",
-  "notes": "All three Bioyond interfaces are checked against their own specifications. The Studio test now makes the documented Device List call instead of only opening a port. The sidebar carries the Augeas mark and the copyright line.",
+  "installer_sha256": "daf4294647c755a862887212cbac8e6af73b79b16eabae7ef5789b38ad19a3cd",
+  "installer_version": "1.0.118",
+  "notes": "The Bioyond link now correlates every reply by its id and reads one message at a time, as the Rob INTF specification requires, and robot faults are shown with their code and message.",
   "source_repo": "AugeasTechnologies/PlasmaKnife",
-  "source_commit": "76bcb22cc95e904141c998c7ac1a2bcf0fe9b978",
+  "source_commit": "671be26a50350319220a34d9dc3c7e2fccfe9d8f",
   "bundle": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS-Control-Suite.zip",
-  "bundle_sha256": "8fa95cc138340dc00a1df8a39463940bae80d31daad9ade92212e2e68d9b77d9",
-  "bundle_version": "1.0.117"
+  "bundle_sha256": "480ab5680714d38aa77857f0317c95ad8ba6704ed9059449685b9e36e372b900",
+  "bundle_version": "1.0.118"
 }
