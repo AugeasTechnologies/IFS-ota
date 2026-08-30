@@ -1,14 +1,14 @@
 {
-  "version": "1.0.118",
+  "version": "1.0.119",
   "url": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS.exe",
-  "sha256": "688c7b1c6f36cd62cb90ca9abcda5ed647d55809e9e2cfa115f9a561bfaa2646",
+  "sha256": "e94a9f2ec76148d40beb5cb45c51bb3b3976db28301be1deff7bc479e218d394",
   "installer": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS-Setup.exe",
-  "installer_sha256": "daf4294647c755a862887212cbac8e6af73b79b16eabae7ef5789b38ad19a3cd",
-  "installer_version": "1.0.118",
-  "notes": "The Bioyond link now correlates every reply by its id and reads one message at a time, as the Rob INTF specification requires, and robot faults are shown with their code and message.",
+  "installer_sha256": "89f7280f4905deca0614dfb32a8a58e7ec1299a170373d55ae97a0bed28bf1ac",
+  "installer_version": "1.0.119",
+  "notes": "A protocol step that starts something now holds for as long as it runs, and the time is written to the station first. A run drops whatever it energised on every path out. Every step carries its own delay. The addresses Bioyond's manuals give for the robot are offered where the address is typed.",
   "source_repo": "AugeasTechnologies/PlasmaKnife",
-  "source_commit": "671be26a50350319220a34d9dc3c7e2fccfe9d8f",
+  "source_commit": "62fb559e0badad51c980d4e707b5697c1aef1198",
   "bundle": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS-Control-Suite.zip",
-  "bundle_sha256": "480ab5680714d38aa77857f0317c95ad8ba6704ed9059449685b9e36e372b900",
-  "bundle_version": "1.0.118"
+  "bundle_sha256": "b3d45c5853b411509ecb324220f50e88c2dfcb5aaed2d28ff9d765590ec55809",
+  "bundle_version": "1.0.119"
 }
