@@ -1,14 +1,14 @@
 {
-  "version": "1.0.114",
+  "version": "1.0.115",
   "url": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS.exe",
-  "sha256": "f5c69660b5008688b3690b7865757b51b7d0379ca1a606b4997da1f3db26cd63",
+  "sha256": "22cf2266985d7850335bded688cdfd65613751d2121f84bffe3a0a02de2fff9c",
   "installer": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS-Setup.exe",
-  "installer_sha256": "fcf72a2cfa147595ab5105e49cc8a54fc6097876a9f433a63ba5d96af85e4227",
-  "installer_version": "1.0.114",
-  "notes": "The Workspaces panel now opens - it was appearing behind the sign-in page. Workspaces without a folder of their own no longer share one and overwrite each other, renaming one carries its protocols, and a new station keeps its work in Documents.",
+  "installer_sha256": "b27e669031bf90c7bdd7aa83457cd30fcc3c5a14694c3fd4b82ddf17ed9320a1",
+  "installer_version": "1.0.115",
+  "notes": "The Tip Charger no longer reports a connection that is only being tested, so a bare adapter stops looking like an intermittent panel. The Bioyond link is corrected against the Rob INTF specification: manual mode is named correctly and a healthy robot no longer reports a fault.",
   "source_repo": "AugeasTechnologies/PlasmaKnife",
-  "source_commit": "799de0dd5f8083a8cb0f5791f31f36860b6c8a49",
+  "source_commit": "4f0fd2dd98a111e9b1600287501b34d8d070ae93",
   "bundle": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS-Control-Suite.zip",
-  "bundle_sha256": "71e8c68f1086c150d2880490a0839c897d17ef5072ba03d5b03c04a08d4eb1af",
-  "bundle_version": "1.0.114"
+  "bundle_sha256": "a162682769373bded2adfc088d2b096bfe24d3d77828d090bcaec269a75656e4",
+  "bundle_version": "1.0.115"
 }
