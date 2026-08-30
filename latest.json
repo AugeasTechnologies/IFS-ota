@@ -1,11 +1,11 @@
 {
-  "version": "1.0.103",
+  "version": "1.0.104",
   "url": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS.exe",
-  "sha256": "82188df980b1becdc1bdfc16f080a4dd3f33c844555fab7862b9b6c4f916cdbd",
+  "sha256": "574d86275f531e3ec1025bb26331f1a3749450109d6003a1189ce194320ba975",
   "installer": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS-Setup.exe",
-  "installer_sha256": "d84db31f253e122a44d9b21a74d9256c55d8ada710fc4057d3f9deb16d4bad9a",
-  "installer_version": "1.0.103",
-  "notes": "Move a station in the cell editor and the arm now goes to where it is, following it even mid-move. Keyboard focus is visible in every text field, and the locked configuration fields explain why they are locked.",
+  "installer_sha256": "85fbf5fcfc04f0d8676b316371e5ba5c9ba5a64e776dccfb3bc3fb6fd9c1bdfc",
+  "installer_version": "1.0.104",
+  "notes": "An out-of-range write to the Tip Charger display is now refused with a reason instead of being silently turned into a write to a different widget.",
   "source_repo": "AugeasTechnologies/PlasmaKnife",
-  "source_commit": "e78e8823091aeadc38612365b157023f1c326289"
+  "source_commit": "e2235e4614045712a92499395b7c9bc62de65366"
 }
