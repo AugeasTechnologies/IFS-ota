@@ -1,14 +1,14 @@
 {
-  "version": "1.0.106",
+  "version": "1.0.107",
   "url": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS.exe",
-  "sha256": "de5715f27cffed60bb042a6ef884677898e909ddaca7e91737b0da7bba4e2456",
+  "sha256": "f4e07d87d84fdaacf297e751e04d48765b63335882fe29b8450cdf46f219f376",
   "installer": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS-Setup.exe",
-  "installer_sha256": "80417c557e3ff66348c69224d75260d635ba41d0053347ee3adfa9a5d69bfbd6",
-  "installer_version": "1.0.106",
-  "notes": "The app asks who is at the station and stamps the data with them - by badge card, by name, or with the station PIN. Recipes belong to an operator. The Bioyond cell is drawn as the real robot.",
+  "installer_sha256": "c400d7d4ac876069140497c047a2ddddc2e6bea1b9397b0f4fee217ae775b3d3",
+  "installer_version": "1.0.107",
+  "notes": "A Protocol page: build a run as a sequence of steps, save it under your own name, and walk it as a dry run. The dry run drives the animations and sends nothing to the station.",
   "source_repo": "AugeasTechnologies/PlasmaKnife",
-  "source_commit": "1c6ea3e2ba3e78a0a49dd180dbc42a3563d7512e",
+  "source_commit": "7463743ad3ffbc553877eecbcdfcfd6bd24df77e",
   "bundle": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS-Control-Suite.zip",
-  "bundle_sha256": "a7679e8557f8fa458f3107f7286c3e50cc2169b0c32e22e43f23d1aeefa4165b",
-  "bundle_version": "1.0.106"
+  "bundle_sha256": "b6a0a076e39cdc2c05f0ab5c4374b6f67e5767fb48fef10a2cf995fd18021d64",
+  "bundle_version": "1.0.107"
 }
