@@ -1,14 +1,14 @@
 {
-  "version": "1.0.107",
+  "version": "1.0.108",
   "url": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS.exe",
-  "sha256": "f4e07d87d84fdaacf297e751e04d48765b63335882fe29b8450cdf46f219f376",
+  "sha256": "4f6ab05e3cc264448825ced75c038183f0b795fdb28da235de306232d90c435b",
   "installer": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS-Setup.exe",
-  "installer_sha256": "c400d7d4ac876069140497c047a2ddddc2e6bea1b9397b0f4fee217ae775b3d3",
-  "installer_version": "1.0.107",
-  "notes": "A Protocol page: build a run as a sequence of steps, save it under your own name, and walk it as a dry run. The dry run drives the animations and sends nothing to the station.",
+  "installer_sha256": "32248d74715fd636c74064a0874ae6119eba391633a730f166a70f95c726aa08",
+  "installer_version": "1.0.108",
+  "notes": "A real sign-in page with workspaces, passwords and an administrator reset. A workspace is a folder, so a team chooses whether its protocols live on this PC or in OneDrive or Dropbox. The interface is glass throughout.",
   "source_repo": "AugeasTechnologies/PlasmaKnife",
-  "source_commit": "7463743ad3ffbc553877eecbcdfcfd6bd24df77e",
+  "source_commit": "62c8171744d6a8e0b241c32dee2db559e514df6b",
   "bundle": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS-Control-Suite.zip",
-  "bundle_sha256": "b6a0a076e39cdc2c05f0ab5c4374b6f67e5767fb48fef10a2cf995fd18021d64",
-  "bundle_version": "1.0.107"
+  "bundle_sha256": "6b2920c35a2f9636a97f6f4c8b4d56a26a9d47bf5937eb017896609ffab15b68",
+  "bundle_version": "1.0.108"
 }
