@@ -1,14 +1,14 @@
 {
-  "version": "1.0.111",
+  "version": "1.0.112",
   "url": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS.exe",
-  "sha256": "b313dba03c1d98393342f25f2a64badad224614606ee7f9d237f7554586f62df",
+  "sha256": "a5606f754166043877346b089bdf10c1f2e896a7b26cbe9dfc6226417d615d17",
   "installer": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS-Setup.exe",
-  "installer_sha256": "3d6810642b8a5fcd1d3012583c757e4f36520190bee70e6c768113f01fee248f",
-  "installer_version": "1.0.111",
-  "notes": "Protocol is a working editor: twenty steps across the stations, drag and keyboard reordering, continuous checking, a dry run that sends nothing, and runs that can be paused, stopped and recorded. The person signed in now sits in the same place on every page.",
+  "installer_sha256": "a2add392efbc111afffd72439dba3ace2cbbfd6cc04b562e5dd774da5752b30d",
+  "installer_version": "1.0.112",
+  "notes": "Protocol gains undo, save as, a filter over the steps, and repeat blocks that are stepped in so the shape of a run is legible. Leaving with unsaved steps now asks, and a run in progress is picked up by any window rather than lost.",
   "source_repo": "AugeasTechnologies/PlasmaKnife",
-  "source_commit": "a630c20c29fea0ad54ab7603ee1e715ecabd4676",
+  "source_commit": "efb2174980618c58eebd988e06412b54adc5c879",
   "bundle": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS-Control-Suite.zip",
-  "bundle_sha256": "73f521205cf35896b3713413fc4ee4f618be76b1e6da02a9328e546e156f1f82",
-  "bundle_version": "1.0.111"
+  "bundle_sha256": "f5f6fa18140defa4d1ee92db4f81330c5eae657a021d54594b95eb0155aadfcf",
+  "bundle_version": "1.0.112"
 }
