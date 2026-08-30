@@ -1,14 +1,14 @@
 {
-  "version": "1.0.105",
+  "version": "1.0.106",
   "url": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS.exe",
-  "sha256": "0dc6b90bfa53699b986028e5081dd6227d998788b48d703cfae3e5fe5831da85",
+  "sha256": "de5715f27cffed60bb042a6ef884677898e909ddaca7e91737b0da7bba4e2456",
   "installer": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS-Setup.exe",
-  "installer_sha256": "c63f52f8fc65a045c3d488e8fb48eb2e91dca55f0750c0b8320a8c7130b01896",
-  "installer_version": "1.0.105",
-  "notes": "The Bioyond cell leads the sidebar and fills the Live View page; the Puretip animation moved to the Puretip One station. Also a folder-and-shortcut build that runs where Smart App Control refuses an installer.",
+  "installer_sha256": "80417c557e3ff66348c69224d75260d635ba41d0053347ee3adfa9a5d69bfbd6",
+  "installer_version": "1.0.106",
+  "notes": "The app asks who is at the station and stamps the data with them - by badge card, by name, or with the station PIN. Recipes belong to an operator. The Bioyond cell is drawn as the real robot.",
   "source_repo": "AugeasTechnologies/PlasmaKnife",
-  "source_commit": "57d034ab1df1c0af88b2f781102be5c8b5f5c99e",
+  "source_commit": "1c6ea3e2ba3e78a0a49dd180dbc42a3563d7512e",
   "bundle": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS-Control-Suite.zip",
-  "bundle_sha256": "41de0a97b40ed2f0d3e2fc6972c04a340e6eb1a1c5e24544432b8621f2777774",
-  "bundle_version": "1.0.105"
+  "bundle_sha256": "a7679e8557f8fa458f3107f7286c3e50cc2169b0c32e22e43f23d1aeefa4165b",
+  "bundle_version": "1.0.106"
 }
