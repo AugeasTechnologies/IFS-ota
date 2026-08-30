@@ -1,14 +1,14 @@
 {
-  "version": "1.0.110",
+  "version": "1.0.111",
   "url": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS.exe",
-  "sha256": "96bebecf73ec85ea68260bbabbfa7091c31d363c11e16449a7a9f762d4a1a415",
+  "sha256": "b313dba03c1d98393342f25f2a64badad224614606ee7f9d237f7554586f62df",
   "installer": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS-Setup.exe",
-  "installer_sha256": "7e1febdc7c04dc76b530d025f979c14d45bd91f1560cfbf761a310519cb8c724",
-  "installer_version": "1.0.110",
-  "notes": "The ownership notice now reads as one sentence rather than as fragments, on the boot screen, the sign-in page, the sidebar and the splash.",
+  "installer_sha256": "3d6810642b8a5fcd1d3012583c757e4f36520190bee70e6c768113f01fee248f",
+  "installer_version": "1.0.111",
+  "notes": "Protocol is a working editor: twenty steps across the stations, drag and keyboard reordering, continuous checking, a dry run that sends nothing, and runs that can be paused, stopped and recorded. The person signed in now sits in the same place on every page.",
   "source_repo": "AugeasTechnologies/PlasmaKnife",
-  "source_commit": "d9085c3ba51579c5935fa36b34a3ffc9918e0e07",
+  "source_commit": "a630c20c29fea0ad54ab7603ee1e715ecabd4676",
   "bundle": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS-Control-Suite.zip",
-  "bundle_sha256": "2641835f7c3437f6c577672e54d9446d9eeb9bd8b2d4e9ee2c65c358729ca76f",
-  "bundle_version": "1.0.110"
+  "bundle_sha256": "73f521205cf35896b3713413fc4ee4f618be76b1e6da02a9328e546e156f1f82",
+  "bundle_version": "1.0.111"
 }
