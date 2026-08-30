@@ -1,14 +1,14 @@
 {
-  "version": "1.0.109",
+  "version": "1.0.110",
   "url": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS.exe",
-  "sha256": "a4092f556444211a4d7a47c60b155de9535832de155cf0b486727b84f6adaaf5",
+  "sha256": "96bebecf73ec85ea68260bbabbfa7091c31d363c11e16449a7a9f762d4a1a415",
   "installer": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS-Setup.exe",
-  "installer_sha256": "3dcbd62c5187c068827f5265cd182a4cca0dc4d93cd3e4986003be194cb87ff2",
-  "installer_version": "1.0.109",
-  "notes": "Augeas Technologies is credited in words rather than with a mark, and the boot screen, sign-in page and sidebar each carry the copyright and the notice that this software is not for distribution and is for authorized users only.",
+  "installer_sha256": "7e1febdc7c04dc76b530d025f979c14d45bd91f1560cfbf761a310519cb8c724",
+  "installer_version": "1.0.110",
+  "notes": "The ownership notice now reads as one sentence rather than as fragments, on the boot screen, the sign-in page, the sidebar and the splash.",
   "source_repo": "AugeasTechnologies/PlasmaKnife",
-  "source_commit": "300e65220fd8f0b176dc6ec2b888969164b8f3d5",
+  "source_commit": "d9085c3ba51579c5935fa36b34a3ffc9918e0e07",
   "bundle": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS-Control-Suite.zip",
-  "bundle_sha256": "cbae10241ce701e4eaf54216ff2de3cd3605bc1afc93b4bc0cfc3bb79a983777",
-  "bundle_version": "1.0.109"
+  "bundle_sha256": "2641835f7c3437f6c577672e54d9446d9eeb9bd8b2d4e9ee2c65c358729ca76f",
+  "bundle_version": "1.0.110"
 }
