@@ -1,14 +1,14 @@
 {
-  "version": "1.0.119",
+  "version": "1.0.120",
   "url": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS.exe",
-  "sha256": "e94a9f2ec76148d40beb5cb45c51bb3b3976db28301be1deff7bc479e218d394",
+  "sha256": "ffbe9eb786e7252d709ae92ee4ebeb928044c6c5c2153b2a2264ed24c90d288b",
   "installer": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS-Setup.exe",
-  "installer_sha256": "89f7280f4905deca0614dfb32a8a58e7ec1299a170373d55ae97a0bed28bf1ac",
-  "installer_version": "1.0.119",
-  "notes": "A protocol step that starts something now holds for as long as it runs, and the time is written to the station first. A run drops whatever it energised on every path out. Every step carries its own delay. The addresses Bioyond's manuals give for the robot are offered where the address is typed.",
+  "installer_sha256": "7da6854604232a4a86221af819bada819e1b7b33c56aa0e269d6800f84dc6286",
+  "installer_version": "1.0.120",
+  "notes": "A timed plasma step now offers only the times the panel will honour, and sets them the way every other panel setting is set.",
   "source_repo": "AugeasTechnologies/PlasmaKnife",
-  "source_commit": "62fb559e0badad51c980d4e707b5697c1aef1198",
+  "source_commit": "651da8f3b79d03143afb73c78803f348a93e58a9",
   "bundle": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS-Control-Suite.zip",
-  "bundle_sha256": "b3d45c5853b411509ecb324220f50e88c2dfcb5aaed2d28ff9d765590ec55809",
-  "bundle_version": "1.0.119"
+  "bundle_sha256": "6f27ca832f2be702ffe04a8274b742ae9b13fd41774f781f03e760cb4b50e204",
+  "bundle_version": "1.0.120"
 }
