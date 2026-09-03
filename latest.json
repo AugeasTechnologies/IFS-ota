@@ -1,14 +1,14 @@
 {
-  "version": "1.0.121",
+  "version": "1.0.122",
   "url": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS.exe",
-  "sha256": "74097bd8d9bde0b4bba833ea50b8b25dff5190b9e466b7cd757a2b543f652be3",
+  "sha256": "a4800df21a1d3f4d17115f88cf1268c3a179e3c18fbcccaa34dff4f4d09c7169",
   "installer": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS-Setup.exe",
-  "installer_sha256": "14b152f6b92cf877cb0b51682f0bd27d05aad0306ab71edcefff36821f1806ad",
-  "installer_version": "1.0.121",
-  "notes": "Closing the app and clicking the shortcut opens the app again, not a web page at 127.0.0.1. A copy left running without a window no longer holds the port or the serial ports.",
+  "installer_sha256": "a4f7bbf3889866ca08beeb7063eb15d87ed0aa48951f291f29fde07457a4a49b",
+  "installer_version": "1.0.122",
+  "notes": "Layout no longer breaks on a narrower window - the page stopped scrolling sideways and the profile button stays on screen. The app no longer ends itself silently when its window fails to open.",
   "source_repo": "AugeasTechnologies/PlasmaKnife",
-  "source_commit": "b18c9ebb432894609b65dcd9f642d076b1831e20",
+  "source_commit": "c350028f2a623d9c7ceef443f36a462107084ccf",
   "bundle": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS-Control-Suite.zip",
-  "bundle_sha256": "b76649801b2c88875f2d59a0c4ac03f90d25ae32135ec1cdbe2ebc0075238dcd",
-  "bundle_version": "1.0.121"
+  "bundle_sha256": "87ea1f7a6948c85cff4eab0e8af864ea01f94ff27ae06738c6af4eafa62ec701",
+  "bundle_version": "1.0.122"
 }
