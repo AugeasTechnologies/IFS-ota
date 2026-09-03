@@ -1,14 +1,14 @@
 {
-  "version": "1.0.120",
+  "version": "1.0.121",
   "url": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS.exe",
-  "sha256": "ffbe9eb786e7252d709ae92ee4ebeb928044c6c5c2153b2a2264ed24c90d288b",
+  "sha256": "74097bd8d9bde0b4bba833ea50b8b25dff5190b9e466b7cd757a2b543f652be3",
   "installer": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS-Setup.exe",
-  "installer_sha256": "7da6854604232a4a86221af819bada819e1b7b33c56aa0e269d6800f84dc6286",
-  "installer_version": "1.0.120",
-  "notes": "A timed plasma step now offers only the times the panel will honour, and sets them the way every other panel setting is set.",
+  "installer_sha256": "14b152f6b92cf877cb0b51682f0bd27d05aad0306ab71edcefff36821f1806ad",
+  "installer_version": "1.0.121",
+  "notes": "Closing the app and clicking the shortcut opens the app again, not a web page at 127.0.0.1. A copy left running without a window no longer holds the port or the serial ports.",
   "source_repo": "AugeasTechnologies/PlasmaKnife",
-  "source_commit": "651da8f3b79d03143afb73c78803f348a93e58a9",
+  "source_commit": "b18c9ebb432894609b65dcd9f642d076b1831e20",
   "bundle": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS-Control-Suite.zip",
-  "bundle_sha256": "6f27ca832f2be702ffe04a8274b742ae9b13fd41774f781f03e760cb4b50e204",
-  "bundle_version": "1.0.120"
+  "bundle_sha256": "b76649801b2c88875f2d59a0c4ac03f90d25ae32135ec1cdbe2ebc0075238dcd",
+  "bundle_version": "1.0.121"
 }
