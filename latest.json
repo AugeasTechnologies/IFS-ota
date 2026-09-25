@@ -1,14 +1,14 @@
 {
-  "version": "1.0.122",
+  "version": "1.0.125",
   "url": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS.exe",
-  "sha256": "a4800df21a1d3f4d17115f88cf1268c3a179e3c18fbcccaa34dff4f4d09c7169",
+  "sha256": "b79dd9d6fa14ff0432476c36e49bd7f8739842d782da9f4143c31ac375d37e56",
   "installer": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS-Setup.exe",
-  "installer_sha256": "a4f7bbf3889866ca08beeb7063eb15d87ed0aa48951f291f29fde07457a4a49b",
-  "installer_version": "1.0.122",
-  "notes": "Layout no longer breaks on a narrower window - the page stopped scrolling sideways and the profile button stays on screen. The app no longer ends itself silently when its window fails to open.",
+  "installer_sha256": "99dae3f3d6ebb38d20dfb1350d45b468eebce678e639d1101637c22d61acc73d",
+  "installer_version": "1.0.125",
+  "notes": "The shortcut opens the application first time. A slow WebView2 is tried again rather than handing you a browser. IFS Suite Pro adds a fleet map, product keys and transfer between PCs.",
   "source_repo": "AugeasTechnologies/PlasmaKnife",
-  "source_commit": "c350028f2a623d9c7ceef443f36a462107084ccf",
+  "source_commit": "052a6e7f4cc1d2e18b1e6b54e611a902da39b6da",
   "bundle": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS-Control-Suite.zip",
-  "bundle_sha256": "87ea1f7a6948c85cff4eab0e8af864ea01f94ff27ae06738c6af4eafa62ec701",
-  "bundle_version": "1.0.122"
+  "bundle_sha256": "440d8461507e0230ee37d7417aeb9c0b31454aafb98e35b66cf1c4ddd7472c85",
+  "bundle_version": "1.0.125"
 }
