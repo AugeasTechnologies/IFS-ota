@@ -1,14 +1,14 @@
 {
-  "version": "1.0.126",
+  "version": "1.0.127",
   "url": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS.exe",
-  "sha256": "e2e5c4b928bf4e4f242114f67ce6e2387a23d2d4fa93a02f7371811e1572905a",
+  "sha256": "e713981fcfebcf78a2951a34f3ce3a82d3bb8e0d1e72ab8a158a96fd13b1cf62",
   "installer": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS-Setup.exe",
-  "installer_sha256": "4b911190470018429bb9f60d730325d81486b83cb627108559b44bf0acc74f29",
-  "installer_version": "1.0.126",
-  "notes": "The fleet map draws in the same language as the rest of the app, and an instrument is only shown as live while its station is.",
+  "installer_sha256": "621637597c036fd441f2d7d752512f8f40b83e4eb27c149721c20a1baa9369ef",
+  "installer_version": "1.0.127",
+  "notes": "The fleet map zooms, and says less.",
   "source_repo": "AugeasTechnologies/PlasmaKnife",
-  "source_commit": "57b5d13533a4e49471694e2aacf9361d94ce66f7",
+  "source_commit": "75d35419adab980636a5301e0a037f28b1050378",
   "bundle": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS-Control-Suite.zip",
-  "bundle_sha256": "6f19e44011739c0835411541c7114e341b549b854905eff954925256516e6988",
-  "bundle_version": "1.0.126"
+  "bundle_sha256": "1b6f9490c477e9f179a741a517129b3c6f139f0e59ac5df4ff276e87a8bf38fb",
+  "bundle_version": "1.0.127"
 }
