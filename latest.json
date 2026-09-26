@@ -1,14 +1,14 @@
 {
-  "version": "1.0.128",
+  "version": "1.0.129",
   "url": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS.exe",
-  "sha256": "fd903535b835a11c3894aac532505f11f1832dfaba5e1d07b06f57d23a49f78c",
+  "sha256": "4fb9f04ef3d0d1a71d65c7e457ad0a17827d11a48c63d74641df203777e4ea26",
   "installer": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS-Setup.exe",
-  "installer_sha256": "bbcc739546f2311c23504e6fff420ffe44c4386c6d599ef799d590a04360880f",
-  "installer_version": "1.0.128",
-  "notes": "A licence is a key you type. The fleet map is redrawn, saves to a file, and can be dragged taller.",
+  "installer_sha256": "5cff70628ebb1cc002a42d02a251c896352773dfcc72101fc395b7bbf87a8590",
+  "installer_version": "1.0.129",
+  "notes": "No stray line across the fleet map when it is dragged taller.",
   "source_repo": "AugeasTechnologies/PlasmaKnife",
-  "source_commit": "8855a11b6adf4216e5ed945fe4618cf5edd023f9",
+  "source_commit": "bbd04bb7b03a13b8af49a0936def83f8cb7b7b5d",
   "bundle": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS-Control-Suite.zip",
-  "bundle_sha256": "4aa6c7eaecb78a32b2bec00d5c47fc41ddab3c68d6a88f8237c236b09942002c",
-  "bundle_version": "1.0.128"
+  "bundle_sha256": "0f3dbb8b0c7d75110907ee57385944ab66805b1138e8841cc241baaa4a1a4940",
+  "bundle_version": "1.0.129"
 }
