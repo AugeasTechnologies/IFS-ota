@@ -1,14 +1,14 @@
 {
-  "version": "1.0.129",
+  "version": "1.0.130",
   "url": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS.exe",
-  "sha256": "4fb9f04ef3d0d1a71d65c7e457ad0a17827d11a48c63d74641df203777e4ea26",
+  "sha256": "3c5c82216e4ed8939890277748d8d536f477ded3ff48cb9a77a5f0a677301d06",
   "installer": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS-Setup.exe",
-  "installer_sha256": "5cff70628ebb1cc002a42d02a251c896352773dfcc72101fc395b7bbf87a8590",
-  "installer_version": "1.0.129",
-  "notes": "No stray line across the fleet map when it is dragged taller.",
+  "installer_sha256": "9d34338cfc73755b11c29f49f02591f5be3f1f8ef504e83fd72710aea992d92b",
+  "installer_version": "1.0.130",
+  "notes": "Tidy up arranges the fleet into aligned rows instead of a ragged shelf.",
   "source_repo": "AugeasTechnologies/PlasmaKnife",
-  "source_commit": "bbd04bb7b03a13b8af49a0936def83f8cb7b7b5d",
+  "source_commit": "a3a868f6111315e6436e7d454b0c4fc6e7061350",
   "bundle": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS-Control-Suite.zip",
-  "bundle_sha256": "0f3dbb8b0c7d75110907ee57385944ab66805b1138e8841cc241baaa4a1a4940",
-  "bundle_version": "1.0.129"
+  "bundle_sha256": "257ac835365a5032ded7b4c8cd3fba39a82aafdfcda102cb09c6f921fe16a5c9",
+  "bundle_version": "1.0.130"
 }
