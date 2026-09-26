@@ -1,14 +1,14 @@
 {
-  "version": "1.0.130",
+  "version": "1.0.131",
   "url": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS.exe",
-  "sha256": "3c5c82216e4ed8939890277748d8d536f477ded3ff48cb9a77a5f0a677301d06",
+  "sha256": "edaab610f9c704b7c61168b7037f4ba6f243f817666a67235b3049ea0a39eabc",
   "installer": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS-Setup.exe",
-  "installer_sha256": "9d34338cfc73755b11c29f49f02591f5be3f1f8ef504e83fd72710aea992d92b",
-  "installer_version": "1.0.130",
-  "notes": "Tidy up arranges the fleet into aligned rows instead of a ragged shelf.",
+  "installer_sha256": "1575183c3c3996c629bed5d86405b0b33115f869fabdbac3068c3555a9da2869",
+  "installer_version": "1.0.131",
+  "notes": "The run log can be cleared from the Runs panel.",
   "source_repo": "AugeasTechnologies/PlasmaKnife",
-  "source_commit": "a3a868f6111315e6436e7d454b0c4fc6e7061350",
+  "source_commit": "8c487765de81fa266dcbef1d543196033e3c9a6a",
   "bundle": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS-Control-Suite.zip",
-  "bundle_sha256": "257ac835365a5032ded7b4c8cd3fba39a82aafdfcda102cb09c6f921fe16a5c9",
-  "bundle_version": "1.0.130"
+  "bundle_sha256": "e32cac9fd93285d2d8ab2f6ec5ad54716a1c16fe5928b77642de4028b1f17a4b",
+  "bundle_version": "1.0.131"
 }
