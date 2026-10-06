@@ -1,14 +1,14 @@
 {
-  "version": "1.0.137",
+  "version": "1.0.138",
   "url": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS.exe",
-  "sha256": "dea7bb38de7da30b2a8254a56896e293484f2609b3d0d3c60cb665d5894bac23",
+  "sha256": "ba0134dd26b0cd8fd006984ed699201896236d4a3bb225d9f6263cd54c969f97",
   "installer": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS-Setup.exe",
-  "installer_sha256": "a6e0d5a1fc50e69d95655198d07897f45e59cd411fd03979c24ae8a3ece9a7e5",
-  "installer_version": "1.0.137",
-  "notes": "Tablet link now connects by itself: plug in the Puretip tablet and IFS forwards the ports, opens the Puretip app if needed and reconnects after a cable pull or reboot (supports the renamed Augeas Puretip app). Adds the IFS assistant and Insight dashboards, plus security and updater fixes.",
+  "installer_sha256": "d3154bd71cf280759fc2a10b77e88ca10876f8a3e8cd17a445e72164b6297aa5",
+  "installer_version": "1.0.138",
+  "notes": "IFS AI hardening: the assistant can no longer change its own settings, the licence, updates or sign-in; presses need an exact control; names stay private; conversations no longer break when switching between the local model and Anthropic; slow or unreachable models and runaway queries now stop cleanly with a clear message. Workspace folders are validated.",
   "source_repo": "AugeasTechnologies/PlasmaKnife",
-  "source_commit": "7de8f2058b200252ca6ce627c916b167eaa13e33",
+  "source_commit": "e95d25d3327e0dc7c1e6e4834bb9fd77c5ceb77b",
   "bundle": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS-Control-Suite.zip",
-  "bundle_sha256": "6cdcbedf2ea7abd4218430391c6813af03c64387b05ffcc7c9a63dd9eda2bce9",
-  "bundle_version": "1.0.137"
+  "bundle_sha256": "f23e72a3fdfc7528c6e7d287561d239591fe0f26ca4717c5adab6cc56bce40fd",
+  "bundle_version": "1.0.138"
 }
