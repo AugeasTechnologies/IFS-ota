@@ -1,14 +1,14 @@
 {
-  "version": "1.0.136",
+  "version": "1.0.137",
   "url": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS.exe",
-  "sha256": "1fea795d385c6a0443b10d44086adb923c196cd571290fb81e435de418a79a16",
+  "sha256": "dea7bb38de7da30b2a8254a56896e293484f2609b3d0d3c60cb665d5894bac23",
   "installer": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS-Setup.exe",
-  "installer_sha256": "6a5b6e286f14bf99d6c638c1b332057594a46db52c369d442bc19ecdca064fe8",
-  "installer_version": "1.0.136",
-  "notes": "Smart App Control machines are offered the folder version instead of an update they cannot install.",
+  "installer_sha256": "a6e0d5a1fc50e69d95655198d07897f45e59cd411fd03979c24ae8a3ece9a7e5",
+  "installer_version": "1.0.137",
+  "notes": "Tablet link now connects by itself: plug in the Puretip tablet and IFS forwards the ports, opens the Puretip app if needed and reconnects after a cable pull or reboot (supports the renamed Augeas Puretip app). Adds the IFS assistant and Insight dashboards, plus security and updater fixes.",
   "source_repo": "AugeasTechnologies/PlasmaKnife",
-  "source_commit": "56825d45226d689e149fde42f425f9d7c078ca80",
+  "source_commit": "7de8f2058b200252ca6ce627c916b167eaa13e33",
   "bundle": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS-Control-Suite.zip",
-  "bundle_sha256": "20d43a8ea1ea8c6af85f5fdefc36c5b04fd5c5345e90cadf1b31fdc6e2a1a098",
-  "bundle_version": "1.0.136"
+  "bundle_sha256": "6cdcbedf2ea7abd4218430391c6813af03c64387b05ffcc7c9a63dd9eda2bce9",
+  "bundle_version": "1.0.137"
 }
