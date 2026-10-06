@@ -1,14 +1,14 @@
 {
-  "version": "1.0.135",
+  "version": "1.0.136",
   "url": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS.exe",
-  "sha256": "cdc13cfdfafdaa4c9c4201c55876e467e2e0de857d6d963c550bead37a31f1eb",
+  "sha256": "1fea795d385c6a0443b10d44086adb923c196cd571290fb81e435de418a79a16",
   "installer": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS-Setup.exe",
-  "installer_sha256": "bc837c210d72504210a5637dad3e1a740bfdfbf03d29f65aeea15aaa2b8a85e8",
-  "installer_version": "1.0.135",
+  "installer_sha256": "6a5b6e286f14bf99d6c638c1b332057594a46db52c369d442bc19ecdca064fe8",
+  "installer_version": "1.0.136",
   "notes": "Smart App Control machines are offered the folder version instead of an update they cannot install.",
   "source_repo": "AugeasTechnologies/PlasmaKnife",
-  "source_commit": "a9eddf21631f3e3f1f9ebdb95b89f154304fa974",
+  "source_commit": "56825d45226d689e149fde42f425f9d7c078ca80",
   "bundle": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS-Control-Suite.zip",
-  "bundle_sha256": "0af128e125513233582576c365ec8ecc07e524b44dda3d8c5cc67e87a4efa015",
-  "bundle_version": "1.0.135"
+  "bundle_sha256": "20d43a8ea1ea8c6af85f5fdefc36c5b04fd5c5345e90cadf1b31fdc6e2a1a098",
+  "bundle_version": "1.0.136"
 }
