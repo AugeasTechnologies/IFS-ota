@@ -1,14 +1,14 @@
 {
-  "version": "1.0.139",
+  "version": "1.0.140",
   "url": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS.exe",
-  "sha256": "9f8f12ed9b7f04e20380ddc1022afd825b484ef7e327981e1591530b89c564b0",
+  "sha256": "c7f05672198b23d88d0d65cd1ce1c08301bc8a90622ebd5cafea6920402c4deb",
   "installer": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS-Setup.exe",
-  "installer_sha256": "3bc416bbfe4f7f3aae17eab131d8dfefa5682942c8a63cd3d26fb1ec68cef552",
-  "installer_version": "1.0.139",
-  "notes": "Puretip One from IFS: every tablet setting (misting and rinse depth, power, cycles, on and off times) shown by its module, read from the tablet and applied with one click; named presets; Auto Run, Flush Mode and Eject Tips buttons; protocol steps to apply a setting or a preset; choose between several tablets and give them nicknames. The assistant's button is hidden while its panel is open.",
+  "installer_sha256": "adc816172f259fcb5423d2ac1f042f46a14d42b54d7e12c1a387ae21cc0bbfe1",
+  "installer_version": "1.0.140",
+  "notes": "Acknowledge tablet popups from IFS: a banner shows what the tablet is asking and one click answers it with the safe choice. Connection controls on one line; tablet settings load automatically and refresh while you watch; Apply now tells you if the tablet did not keep a value. IFS opens by itself when a Puretip One tablet is plugged in.",
   "source_repo": "AugeasTechnologies/PlasmaKnife",
-  "source_commit": "9ec82561468356781b8755bc5e6a0dfddf501b57",
+  "source_commit": "9bd03a33c0003ade1b8fd2fdf8673d137b98dd36",
   "bundle": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS-Control-Suite.zip",
-  "bundle_sha256": "fdf7ac486e43aa9b3c20424542807656fd424f90962158847be64fd702a7a933",
-  "bundle_version": "1.0.139"
+  "bundle_sha256": "0ce1b143946403251a0c8cceba87640a9c40d0017e5f6d68544b447704aa8837",
+  "bundle_version": "1.0.140"
 }
