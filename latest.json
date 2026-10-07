@@ -1,14 +1,14 @@
 {
-  "version": "1.0.140",
+  "version": "1.0.141",
   "url": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS.exe",
-  "sha256": "c7f05672198b23d88d0d65cd1ce1c08301bc8a90622ebd5cafea6920402c4deb",
+  "sha256": "3d99b92e1ac52cdeadf6c163bf840b12a88fc416f2abdf7f36172cc8685a1880",
   "installer": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS-Setup.exe",
-  "installer_sha256": "adc816172f259fcb5423d2ac1f042f46a14d42b54d7e12c1a387ae21cc0bbfe1",
-  "installer_version": "1.0.140",
-  "notes": "Acknowledge tablet popups from IFS: a banner shows what the tablet is asking and one click answers it with the safe choice. Connection controls on one line; tablet settings load automatically and refresh while you watch; Apply now tells you if the tablet did not keep a value. IFS opens by itself when a Puretip One tablet is plugged in.",
+  "installer_sha256": "3b0d857d2bfedcd4d8acede75bacafff51a373c708d75af6ca8c0b47a69e114b",
+  "installer_version": "1.0.141",
+  "notes": "Configuration moves under Insight, with a cleaner This station card. IFS AI can float: move it by its title bar, resize it from any edge, dock it again. Puretip Acknowledge clears every stacked popup on the tablet. Licence keys stop at 16 characters. Sign-in fields match.",
   "source_repo": "AugeasTechnologies/PlasmaKnife",
-  "source_commit": "9bd03a33c0003ade1b8fd2fdf8673d137b98dd36",
+  "source_commit": "a7541f57df24a0829c360e90d3e2fe4db27fa61a",
   "bundle": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS-Control-Suite.zip",
-  "bundle_sha256": "0ce1b143946403251a0c8cceba87640a9c40d0017e5f6d68544b447704aa8837",
-  "bundle_version": "1.0.140"
+  "bundle_sha256": "12a6746eb14dbeef574921777846145f0ad5fc3c98b3fd219a1d2d8ed7e20a7d",
+  "bundle_version": "1.0.141"
 }
