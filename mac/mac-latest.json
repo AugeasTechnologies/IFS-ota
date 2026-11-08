@@ -1,10 +1,10 @@
 {
-  "version": "1.0.142",
+  "version": "1.0.143",
   "platform": "macOS 11+ (Apple silicon, arm64)",
-  "url": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/mac/IFS-Control-Suite-1.0.142-mac-arm64.dmg",
-  "sha256": "04820b51855bb23123522ac6cd33211db83129c3f1bed46d41bfa6f8bb4f1761",
+  "url": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/mac/IFS-Control-Suite-1.0.143-mac-arm64.dmg",
+  "sha256": "1dee2c387bdd3da71880226d550b6c2598491c7a12226a51afc5294611fe6a4f",
   "signed": "ad-hoc (not notarized): first launch needs right-click > Open",
-  "notes": "The Mac app now updates itself: when a new version is published, click Update and IFS closes, installs it and reopens. New glass app icon.",
+  "notes": "New look for the Home communication map: a dark control-room panel with glowing links and data packets flowing along every connection that is up.",
   "source_repo": "AugeasTechnologies/PlasmaKnife",
-  "source_commit": "3653025293f7c2d1f79e2c4ba5a98432a294a8ad"
+  "source_commit": "4e97184424c32f9eafd7994cff5dabd12f0bc5ad"
 }
