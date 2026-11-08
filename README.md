@@ -1,5 +1,9 @@
 # IFS-ota — IonField Systems Control Center OTA channel
 
+> © 2026 Augeas Technologies. All rights reserved. Proprietary software, licensed only to
+> authorized operators. Not licensed for copying, redistribution, reverse-engineering or AI/ML
+> use — see [NOTICE.md](NOTICE.md).
+
 Public update channel for **IFS.exe** (the IonField Systems Control Center desktop app;
 source is private in `AugeasTechnologies/PlasmaKnife`).
 
@@ -14,7 +18,8 @@ The app checks `latest.json` on launch and self-updates when a newer version is 
 | `IFS-Setup.exe` | The installer (Start menu, Add/Remove Programs, auto-launch watcher). |
 | `opta/plasma_opta.bin` | Opta station firmware, flashed by the app over USB. |
 | `display/plasma_display.4XE` + `.cfg` | Station touch-panel firmware, flashed via a 4D programmer. |
-| `latest.json`, `opta/opta-latest.json`, `display/display-latest.json` | The manifests: version, download URL, sha256, source stamp. |
+| `mac/IFS-Control-Suite-<ver>-mac-arm64.dmg` | **The Mac app** (macOS 11+, Apple silicon). Open the .dmg, drag IFS to Applications; the first launch needs right-click > Open (ad-hoc signed, not yet notarized). No self-update on the Mac: download the newer .dmg. |
+| `latest.json`, `mac/mac-latest.json`, `opta/opta-latest.json`, `display/display-latest.json` | The manifests: version, download URL, sha256, source stamp. |
 
 There are deliberately **no zip *copies* of the exe**: the 2026-08-18 audit found
 `IFS-portable.zip` / `IFS-Setup.zip` still carrying the 1.0.79 build two weeks after 1.0.80
@@ -59,7 +64,7 @@ unrebuildable (this happened: app 1.0.0→1.0.80 and panel 0.2.0 shipped from un
 
 | Artifact | Source of truth |
 |----------|-----------------|
-| `IFS.exe` / `IFS-Setup.exe` | `PlasmaKnife` |
+| `IFS.exe` / `IFS-Setup.exe` / `mac/*.dmg` | `PlasmaKnife` |
 | `opta/plasma_opta.bin` | `opta-plasma-firmware` |
 | `display/plasma_display.4XE` | `Plasma-StandAlone-V0.1` |
 

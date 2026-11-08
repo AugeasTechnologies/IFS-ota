@@ -1,0 +1,10 @@
+{
+  "version": "1.0.141",
+  "platform": "macOS 11+ (Apple silicon, arm64)",
+  "url": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/mac/IFS-Control-Suite-1.0.141-mac-arm64.dmg",
+  "sha256": "3f80b285a0a0014c83e48d35e03a3aabf92ffc32ee02a8651513acf23bf8d38a",
+  "signed": "ad-hoc (not notarized): first launch needs right-click > Open",
+  "notes": "First macOS release of IFS Control Suite. Same features as Windows except 4D display flashing (Windows-only loader). Opta firmware updates, protocols, data log, fleet, IFS AI all work on the Mac.",
+  "source_repo": "AugeasTechnologies/PlasmaKnife",
+  "source_commit": "e567bdfdd1f669bfb1ff2b9b412d73426cd6360b"
+}
