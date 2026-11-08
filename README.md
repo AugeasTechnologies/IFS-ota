@@ -18,7 +18,7 @@ The app checks `latest.json` on launch and self-updates when a newer version is 
 | `IFS-Setup.exe` | The installer (Start menu, Add/Remove Programs, auto-launch watcher). |
 | `opta/plasma_opta.bin` | Opta station firmware, flashed by the app over USB. |
 | `display/plasma_display.4XE` + `.cfg` | Station touch-panel firmware, flashed via a 4D programmer. |
-| `mac/IFS-Control-Suite-<ver>-mac-arm64.dmg` | **The Mac app** (macOS 11+, Apple silicon). Open the .dmg, drag IFS to Applications; the first launch needs right-click > Open (ad-hoc signed, not yet notarized). No self-update on the Mac: download the newer .dmg. |
+| `mac/IFS-Control-Suite-<ver>-mac-arm64.dmg` | **The Mac app** (macOS 11+, Apple silicon). Open the .dmg, drag IFS to Applications; the first launch needs right-click > Open (ad-hoc signed, not yet notarized). From 1.0.142 the Mac app updates itself from `mac/mac-latest.json` (one-click, like Windows). |
 | `latest.json`, `mac/mac-latest.json`, `opta/opta-latest.json`, `display/display-latest.json` | The manifests: version, download URL, sha256, source stamp. |
 
 There are deliberately **no zip *copies* of the exe**: the 2026-08-18 audit found
