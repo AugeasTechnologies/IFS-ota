@@ -1,10 +1,10 @@
 {
-  "version": "1.0.143",
+  "version": "1.0.144",
   "platform": "macOS 11+ (Apple silicon, arm64)",
-  "url": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/mac/IFS-Control-Suite-1.0.143-mac-arm64.dmg",
-  "sha256": "1dee2c387bdd3da71880226d550b6c2598491c7a12226a51afc5294611fe6a4f",
+  "url": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/mac/IFS-Control-Suite-1.0.144-mac-arm64.dmg",
+  "sha256": "bb1ba97edea23cb29253271841dadea94f3bd8fd2e383b6c09e707b08fc11ade",
   "signed": "ad-hoc (not notarized): first launch needs right-click > Open",
-  "notes": "New look for the Home communication map: a dark control-room panel with glowing links and data packets flowing along every connection that is up.",
+  "notes": "New control-room look for every live diagram: communication map, chamber, Bioyond cell, Puretip One and the Fleet map.",
   "source_repo": "AugeasTechnologies/PlasmaKnife",
-  "source_commit": "4e97184424c32f9eafd7994cff5dabd12f0bc5ad"
+  "source_commit": "477f2cfd380468c28319e54e13fe4ed07defecfe"
 }
