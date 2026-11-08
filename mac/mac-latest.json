@@ -1,10 +1,10 @@
 {
-  "version": "1.0.145",
+  "version": "1.0.146",
   "platform": "macOS 11+ (Apple silicon, arm64)",
-  "url": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/mac/IFS-Control-Suite-1.0.145-mac-arm64.dmg",
-  "sha256": "efb3bca43ed4809ebd44ebf4cc84e215c95f107e38f450e4b7d3bc5dfec8942d",
+  "url": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/mac/IFS-Control-Suite-1.0.146-mac-arm64.dmg",
+  "sha256": "7adbf45bd1be4de3cd8615674d413c91f641f8952e44e1d1620976c8266299b6",
   "signed": "ad-hoc (not notarized): first launch needs right-click > Open",
-  "notes": "Cleaner, lighter look for every live diagram: frosted panels, glowing data packets on live links, glass station cards, and a new Insight score dial.",
+  "notes": "IFS now tells you at start-up when new touch-display or Opta firmware is published, with a dot on Firmware until you look.",
   "source_repo": "AugeasTechnologies/PlasmaKnife",
-  "source_commit": "e80949afa081399f85a027114feac042e1ba6763"
+  "source_commit": "91b2a791f395fec77b17cca856ede99d8f8804c1"
 }
