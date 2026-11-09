@@ -10,5 +10,10 @@
   "source_commit": "a7541f57df24a0829c360e90d3e2fe4db27fa61a",
   "bundle": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS-Control-Suite.zip",
   "bundle_sha256": "12a6746eb14dbeef574921777846145f0ad5fc3c98b3fd219a1d2d8ed7e20a7d",
-  "bundle_version": "1.0.141"
+  "bundle_version": "1.0.141",
+  "sig": {
+    "alg": "ed25519",
+    "key": "ota-1",
+    "value": "Wka3iqtkkqI3PLwjtiWX/oHPaoZXjDV7lIDop22++rgdhkl7X+ERFOoAYsAnAZh/AISiYTFwiiFkyuJUQeXnAA=="
+  }
 }

@@ -1,12 +1,17 @@
 {
-    "version":  "1.3.0",
-    "name":  "plasma_opta",
-    "board":  "Arduino Opta (mbed_opta)",
-    "bin":  "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/opta/plasma_opta.bin",
-    "bin_sha256":  "fb036df92300d1bbc1af6ef78249f93d383c8d27ee42739f5269a46d177c8275",
-    "dfu_vidpid":  "0x2341:0x0364",
-    "dfu_address":  "0x08040000",
-    "source_repo":  "AugeasTechnologies/opta-plasma-firmware",
-    "source_commit":  "4c9477d82a91571fd85dc1924f47c0a27fafc035",
-    "notes":  "Opta master firmware 1.3.0: servo RS485 AUTO-BAUD. The controller now auto-detects the servo drive\u0027s baud rate at boot (the A6-RS ships at 115200; the station standard is 9600) and adopts whichever answers, so a stock drive links with no drive reconfiguration - fixes the common no-reply / DRIVE_CONFIGURATION_FAILED. Also tightens the RS485 turnaround and adds a \u0027servoscan\u0027 console command. Flashed over USB by the app."
+  "version": "1.3.0",
+  "name": "plasma_opta",
+  "board": "Arduino Opta (mbed_opta)",
+  "bin": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/opta/plasma_opta.bin",
+  "bin_sha256": "fb036df92300d1bbc1af6ef78249f93d383c8d27ee42739f5269a46d177c8275",
+  "dfu_vidpid": "0x2341:0x0364",
+  "dfu_address": "0x08040000",
+  "source_repo": "AugeasTechnologies/opta-plasma-firmware",
+  "source_commit": "4c9477d82a91571fd85dc1924f47c0a27fafc035",
+  "notes": "Opta master firmware 1.3.0: servo RS485 AUTO-BAUD. The controller now auto-detects the servo drive's baud rate at boot (the A6-RS ships at 115200; the station standard is 9600) and adopts whichever answers, so a stock drive links with no drive reconfiguration - fixes the common no-reply / DRIVE_CONFIGURATION_FAILED. Also tightens the RS485 turnaround and adds a 'servoscan' console command. Flashed over USB by the app.",
+  "sig": {
+    "alg": "ed25519",
+    "key": "ota-1",
+    "value": "VCQzZvcnVzGaxNlTNmMgyxI2St2MllYVn7fuH90nJsJP8bpx5MpKZOzfd9znbB/4eZn+9dTh4k/bPPI09oLKAg=="
+  }
 }

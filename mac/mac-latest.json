@@ -6,5 +6,10 @@
   "signed": "ad-hoc (not notarized): first launch needs right-click > Open",
   "notes": "IFS now tells you at start-up when new touch-display or Opta firmware is published, with a dot on Firmware until you look.",
   "source_repo": "AugeasTechnologies/PlasmaKnife",
-  "source_commit": "91b2a791f395fec77b17cca856ede99d8f8804c1"
+  "source_commit": "91b2a791f395fec77b17cca856ede99d8f8804c1",
+  "sig": {
+    "alg": "ed25519",
+    "key": "ota-1",
+    "value": "KKKUJXa7pKikPK0qwS4is5UIcNLJfAIrOqBNlYbOBKbpBiTjDY4ehYDyPSGTw9M1xhjdiLApR7HgtSOWSvIjBg=="
+  }
 }
