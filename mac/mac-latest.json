@@ -1,15 +1,15 @@
 {
-  "version": "1.0.146",
+  "version": "1.0.147",
   "platform": "macOS 11+ (Apple silicon, arm64)",
-  "url": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/mac/IFS-Control-Suite-1.0.146-mac-arm64.dmg",
-  "sha256": "7adbf45bd1be4de3cd8615674d413c91f641f8952e44e1d1620976c8266299b6",
+  "url": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/mac/IFS-Control-Suite-1.0.147-mac-arm64.dmg",
+  "sha256": "9c62b5f8b7ab57c1be957fcf268fb45e3e7b3f84fb527569589b314f2be90f69",
   "signed": "ad-hoc (not notarized): first launch needs right-click > Open",
-  "notes": "IFS now tells you at start-up when new touch-display or Opta firmware is published, with a dot on Firmware until you look.",
+  "notes": "Default admin accounts now choose their own password at first sign-in. Updates and firmware are only accepted when signed by Augeas. Protocol 'Wait until idle' no longer moves on too early after Start. Open-source notices under the version number.",
   "source_repo": "AugeasTechnologies/PlasmaKnife",
-  "source_commit": "91b2a791f395fec77b17cca856ede99d8f8804c1",
+  "source_commit": "852790b",
   "sig": {
     "alg": "ed25519",
     "key": "ota-1",
-    "value": "KKKUJXa7pKikPK0qwS4is5UIcNLJfAIrOqBNlYbOBKbpBiTjDY4ehYDyPSGTw9M1xhjdiLApR7HgtSOWSvIjBg=="
+    "value": "qXmn4T11U9svN0FYc3ejabABEonEKs7xlgLEpWjjtFp1Uxr34p8Fl1/1vwTZgARALnN9RHKtV4R9x3o3MxYdDQ=="
   }
 }
