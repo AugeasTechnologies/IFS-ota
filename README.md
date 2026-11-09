@@ -81,3 +81,7 @@ on every launch — a silent loop. The app refuses that and names the installer 
 As of 1.0.82 `build.ps1` builds and signs `IFS-Setup.exe` itself from the same `$ver` (the `.iss`
 takes `/DAppVersion=` and no longer hardcodes a number), so the two cannot drift apart. If ISCC is
 missing on the build machine the script says so and warns you **not** to raise `installer_version`.
+
+## Manifests are signed
+
+Every manifest here carries an Ed25519 `sig`. IFS 1.0.147+ refuses an unsigned or edited manifest, so any change to a manifest must be re-signed with `scripts/ota-sign.py` (PlasmaKnife repo) before it is pushed.
