@@ -1,22 +1,22 @@
 {
-  "version": "4.1.39",
+  "version": "4.1.41B",
   "name": "uc41_display",
   "family": "uc41",
   "model": "Gen4-uLCD-50DT-P (Diablo16)",
   "processor": "Picaso",
-  "xe": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/display-uc41/uc41_display_4.1.39.4XE",
-  "xe_sha256": "5e34f60a251b453a28f7c5343585fe8ecd025d50834294e66e169c7fe42387ac",
-  "cfg": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/display-uc41/uc41_display_4.1.39.cfg",
+  "xe": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/display-uc41/uc41_display_4.1.41B.4XE",
+  "xe_sha256": "87c14df54d9a82921a759f4d9b545d3207cb1b0ed2c3696dc4d679b6201d79af",
+  "cfg": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/display-uc41/uc41_display_4.1.41B.cfg",
   "cfg_sha256": "ff31f6a34752ca53524286f207d718efddbaabefe9e084d2b775658df22064ba",
   "download_baud": 9600,
   "graphics": false,
   "reset": "usb-programmer",
-  "notes": "Universal Controller 4.1 (Tip Charger) display - do NOT flash onto a Plasma StandAlone panel. V4.1.38 + tip-sensor EMI filter (PA3 min-of-8 burst read, 3-tick debounce on fire/stop) + main-loop fixes (smoothed power/vac flow, timer shut-offs, stop from any screen, pump stays on mid-cycle); BENCH-TEST BUILD, not yet verified on hardware. On-screen version label still reads 4.1.38 (graphics unchanged). Program only (.4XE), uSD untouched (UNIVER~1.* or Universa.*). Flash over a direct 4D USB programmer.",
+  "notes": "Universal Controller 4.1 (Tip Charger) display - do NOT flash onto a Plasma StandAlone panel. 4.1.41B TEST BUILD: tip sensor now takes the MEDIAN of 9 quick reads (4.1.39 used the lowest, so a tips-out under plasma read 0 and the plasma ran to the time limit), 3-tick debounce on fire/stop, plus main-loop fixes (smoothed power/vac flow, timer shut-offs, stop from any screen, pump stays on mid-cycle). On-screen label still reads 4.1.38 (graphics unchanged). Program only (.4XE), uSD untouched. Flash over a direct 4D USB programmer.",
   "source_repo": "AugeasTechnologies/plasma-charger-firmware",
-  "source_commit": "437cca00e0fb693aab0051001f89511ca4ea25f5",
+  "source_commit": "901df85",
   "sig": {
     "alg": "ed25519",
     "key": "ota-1",
-    "value": "f+fY84RLuq71Il8biPueUoXASwtbrLQV1OemhM4Nx1c3qKKzXRvILOpD/u0iXXj5cvsJXBWbLU4O5wi0rZYJCA=="
+    "value": "s004Tj9uPIK9+eIyoaDvlGbGc45ohpP9Npj3TDGGceYO/WWjxsCAr09gnEJwqFDBAZZcBnjF+Z/VGTPHDHiUAw=="
   }
 }
