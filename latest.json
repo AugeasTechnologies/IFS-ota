@@ -1,19 +1,19 @@
 {
-  "version": "1.0.141",
+  "version": "1.0.148",
   "url": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS.exe",
-  "sha256": "3d99b92e1ac52cdeadf6c163bf840b12a88fc416f2abdf7f36172cc8685a1880",
+  "sha256": "91f40a807c48e780522c86fd44a799ba11e2a24b79894f572c190cce3ae3b9cd",
   "installer": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS-Setup.exe",
-  "installer_sha256": "3b0d857d2bfedcd4d8acede75bacafff51a373c708d75af6ca8c0b47a69e114b",
-  "installer_version": "1.0.141",
-  "notes": "Configuration moves under Insight, with a cleaner This station card. IFS AI can float: move it by its title bar, resize it from any edge, dock it again. Puretip Acknowledge clears every stacked popup on the tablet. Licence keys stop at 16 characters. Sign-in fields match.",
+  "installer_sha256": "c01fee6e81fb0a0800006794f371e1ec48547f45dba7887e283662ecedbb98a9",
+  "installer_version": "1.0.148",
+  "notes": "Tip Charger display firmware: choose which panel the unit has (Universal Controller 4.1 Tip Charger or Plasma StandAlone) and flash from that panel's own channel - 4.1 controllers get V4.1.38 or the 4.1.39 EMI-filter test build; a program for the other panel is refused. Flash my compiled build accepts any .4XE. Also brings Windows up to date: signed update manifests, choose your own password at first sign-in, firmware notices, refreshed diagrams. Built unsigned (no Authenticode) on GitHub Actions.",
   "source_repo": "AugeasTechnologies/PlasmaKnife",
-  "source_commit": "a7541f57df24a0829c360e90d3e2fe4db27fa61a",
+  "source_commit": "1e03dac39820d2430be15d6dc46b4bbc6101345a",
   "bundle": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/IFS-Control-Suite.zip",
-  "bundle_sha256": "12a6746eb14dbeef574921777846145f0ad5fc3c98b3fd219a1d2d8ed7e20a7d",
-  "bundle_version": "1.0.141",
+  "bundle_sha256": "f3523949766aa9d694d9573db7ad54bf0e08d9bf86fe2eae1333cbf3e589ccd4",
+  "bundle_version": "1.0.148",
   "sig": {
     "alg": "ed25519",
     "key": "ota-1",
-    "value": "Wka3iqtkkqI3PLwjtiWX/oHPaoZXjDV7lIDop22++rgdhkl7X+ERFOoAYsAnAZh/AISiYTFwiiFkyuJUQeXnAA=="
+    "value": "pbOdWgsWCMrGyCAPIQMprxGmRvdQLqIz8DNLwJ5ebWx6cvFbmbFVvqwabIy3Mm2+vifCSZqgRIqGX7ig2zA2CA=="
   }
 }
