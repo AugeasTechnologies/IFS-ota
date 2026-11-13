@@ -17,7 +17,8 @@ The app checks `latest.json` on launch and self-updates when a newer version is 
 | `IFS-Control-Suite.zip` | **The download to give a customer whose Windows flags `IFS.exe`.** Same app, but the program Windows launches is python.org's PSF-signed `python.exe`, which SmartScreen already trusts. Unzip, run the shortcut — no install, no admin. |
 | `IFS-Setup.exe` | The installer (Start menu, Add/Remove Programs, auto-launch watcher). |
 | `opta/plasma_opta.bin` | Opta station firmware, flashed by the app over USB. |
-| `display/plasma_display.4XE` + `.cfg` | Station touch-panel firmware, flashed via a 4D programmer. |
+| `display/plasma_display.4XE` + `.cfg` | **Plasma StandAlone** touch-panel firmware, flashed via a 4D programmer. Never flash it onto a Universal Controller 4.1 (Tip Charger) panel - it looks for `PLASMA~1.*` graphics on the uSD and the panel stays on "Mounting...". |
+| `display-uc41/` | **Universal Controller 4.1 (Tip Charger)** display firmware: `display-latest.json` = shipping V4.1.38 (recovery), `display-emi.json` = 4.1.39 bench-test build (EMI filter + main-loop fixes). Program only; uses the `UNIVER~1.*`/`Universa.*` graphics already on the uSD. |
 | `mac/IFS-Control-Suite-<ver>-mac-arm64.dmg` | **The Mac app** (macOS 11+, Apple silicon). Open the .dmg, drag IFS to Applications; the first launch needs right-click > Open (ad-hoc signed, not yet notarized). From 1.0.142 the Mac app updates itself from `mac/mac-latest.json` (one-click, like Windows). |
 | `latest.json`, `mac/mac-latest.json`, `opta/opta-latest.json`, `display/display-latest.json` | The manifests: version, download URL, sha256, source stamp. |
 
@@ -67,6 +68,7 @@ unrebuildable (this happened: app 1.0.0→1.0.80 and panel 0.2.0 shipped from un
 | `IFS.exe` / `IFS-Setup.exe` / `mac/*.dmg` | `PlasmaKnife` |
 | `opta/plasma_opta.bin` | `opta-plasma-firmware` |
 | `display/plasma_display.4XE` | `Plasma-StandAlone-V0.1` |
+| `display-uc41/*.4XE` | `plasma-charger-firmware` (`main` = 4.1.38, `tip-sensor-emi-filter` = 4.1.39), stamped in each manifest |
 
 Current stamp status: `opta-latest.json` is stamped (1.3.0 = `opta-plasma-firmware@4c9477d`) and
 `latest.json` is stamped (app 1.0.82 = `PlasmaKnife@0efacfc`; 1.0.81 was the first app release built from

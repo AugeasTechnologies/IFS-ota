@@ -1,0 +1,22 @@
+{
+  "version": "4.1.38",
+  "name": "uc41_display",
+  "family": "uc41",
+  "model": "Gen4-uLCD-50DT-P (Diablo16)",
+  "processor": "Picaso",
+  "xe": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/display-uc41/uc41_display_4.1.38.4XE",
+  "xe_sha256": "b2a290346a520dbd4513202509efa77d7cd31e8a5f96513c656f29b80b956099",
+  "cfg": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/display-uc41/uc41_display_4.1.38.cfg",
+  "cfg_sha256": "ff31f6a34752ca53524286f207d718efddbaabefe9e084d2b775658df22064ba",
+  "download_baud": 9600,
+  "graphics": false,
+  "reset": "usb-programmer",
+  "notes": "Universal Controller 4.1 (Tip Charger) display - do NOT flash onto a Plasma StandAlone panel. Shipping V4.1.38 logic, unmodified (recovery build). Program only (.4XE): the uSD graphics already on a 4.1 controller are used as-is, under either name Workshop 4 has given them (UNIVER~1.* or Universa.*). Flash over a direct 4D USB programmer.",
+  "source_repo": "AugeasTechnologies/plasma-charger-firmware",
+  "source_commit": "55500a1b55ed6869700f77927bb57897d4e79d6f",
+  "sig": {
+    "alg": "ed25519",
+    "key": "ota-1",
+    "value": "OWbuzM1Xt9Z7perNiPoxGZa3cCZFytyVEojBS080/M1cFEu1POqkljuaZlzGBARkuuCvZPE+y8vVmyADb73CAw=="
+  }
+}

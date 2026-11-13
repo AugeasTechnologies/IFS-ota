@@ -3,3 +3,4 @@ display/** -text
 *.cfg -text
 *.gci -text
 *.dat -text
+display-uc41/** -text
