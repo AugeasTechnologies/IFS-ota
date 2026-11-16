@@ -1,22 +1,22 @@
 {
-  "version": "4.1.41B",
+  "version": "4.1.42B",
   "name": "uc41_display",
   "family": "uc41",
   "model": "Gen4-uLCD-50DT-P (Diablo16)",
   "processor": "Picaso",
-  "xe": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/display-uc41/uc41_display_4.1.41B.4XE",
-  "xe_sha256": "87c14df54d9a82921a759f4d9b545d3207cb1b0ed2c3696dc4d679b6201d79af",
-  "cfg": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/display-uc41/uc41_display_4.1.41B.cfg",
+  "xe": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/display-uc41/uc41_display_4.1.42B.4XE",
+  "xe_sha256": "5da3b936cbab3c8ca8f763604e72c306a6e127d006a99a5cdd4acfc162fb4ab4",
+  "cfg": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/display-uc41/uc41_display_4.1.42B.cfg",
   "cfg_sha256": "ff31f6a34752ca53524286f207d718efddbaabefe9e084d2b775658df22064ba",
   "download_baud": 9600,
   "graphics": false,
   "reset": "usb-programmer",
-  "notes": "Universal Controller 4.1 (Tip Charger) display - do NOT flash onto a Plasma StandAlone panel. 4.1.41B TEST BUILD: tip sensor now takes the MEDIAN of 9 quick reads (4.1.39 used the lowest, so a tips-out under plasma read 0 and the plasma ran to the time limit), 3-tick debounce on fire/stop, plus main-loop fixes (smoothed power/vac flow, timer shut-offs, stop from any screen, pump stays on mid-cycle). On-screen label still reads 4.1.38 (graphics unchanged). Program only (.4XE), uSD untouched. Flash over a direct 4D USB programmer.",
+  "notes": "Universal Controller 4.1 (Tip Charger) display - do NOT flash onto a Plasma StandAlone panel. 4.1.42B TEST BUILD: under plasma the tip sensor reads 0-85 with tips in and 10-156 with tips out (overlapping), so it can no longer stop plasma - that caused 4.1.41B's 2-5 s on / 1 s pump cycling. Now: tips in fires plasma, the plasma timer ends the cycle, and the next cycle needs the tips seen OUT with plasma off. Safety: watchdog cuts plasma at plasma time + 5 s whatever happens (blinking 888), relay read-back check, STOP / serial stop / Test Plasma OFF end the cycle. Keeps 4.1.41B main-loop fixes (smoothed power/vac flow, timer shut-offs, pump stays on). On-screen label still reads 4.1.38 (graphics unchanged). Program only (.4XE), uSD untouched.",
   "source_repo": "AugeasTechnologies/plasma-charger-firmware",
-  "source_commit": "901df85",
+  "source_commit": "a90e897",
   "sig": {
     "alg": "ed25519",
     "key": "ota-1",
-    "value": "s004Tj9uPIK9+eIyoaDvlGbGc45ohpP9Npj3TDGGceYO/WWjxsCAr09gnEJwqFDBAZZcBnjF+Z/VGTPHDHiUAw=="
+    "value": "Uyn6FLzE6Nq9yb+RRcwalWaqtTgtsL8SfD7MHFnrRVqlbqHpyugviY3WaA2HbP9yz2sOsRrdlyrXcDAPK+vYAw=="
   }
 }
