@@ -1,22 +1,22 @@
 {
-  "version": "4.1.42B",
+  "version": "4.1.39B",
   "name": "uc41_display",
   "family": "uc41",
   "model": "Gen4-uLCD-50DT-P (Diablo16)",
   "processor": "Picaso",
-  "xe": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/display-uc41/uc41_display_4.1.42B.4XE",
-  "xe_sha256": "5da3b936cbab3c8ca8f763604e72c306a6e127d006a99a5cdd4acfc162fb4ab4",
-  "cfg": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/display-uc41/uc41_display_4.1.42B.cfg",
+  "xe": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/display-uc41/uc41_display_4.1.39B.4XE",
+  "xe_sha256": "569f12e1a7af3396e80b3f0bcd95d77d0b731785eda905746da999ada56a590c",
+  "cfg": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/display-uc41/uc41_display_4.1.39B.cfg",
   "cfg_sha256": "ff31f6a34752ca53524286f207d718efddbaabefe9e084d2b775658df22064ba",
   "download_baud": 9600,
   "graphics": false,
   "reset": "usb-programmer",
-  "notes": "Universal Controller 4.1 (Tip Charger) display - do NOT flash onto a Plasma StandAlone panel. 4.1.42B TEST BUILD: under plasma the tip sensor reads 0-85 with tips in and 10-156 with tips out (overlapping), so it can no longer stop plasma - that caused 4.1.41B's 2-5 s on / 1 s pump cycling. Now: tips in fires plasma, the plasma timer ends the cycle, and the next cycle needs the tips seen OUT with plasma off. Safety: watchdog cuts plasma at plasma time + 5 s whatever happens (blinking 888), relay read-back check, STOP / serial stop / Test Plasma OFF end the cycle. Keeps 4.1.41B main-loop fixes (smoothed power/vac flow, timer shut-offs, pump stays on). On-screen label still reads 4.1.38 (graphics unchanged). Program only (.4XE), uSD untouched.",
+  "notes": "Universal Controller 4.1 (Tip Charger) display - do NOT flash onto a Plasma StandAlone panel. 4.1.39B TEST BUILD: AUTO ON + AUTO OFF. Tips in fires plasma (no on/off cycling). Tips out: the plasma is switched off for a moment (up to 250 ms) and the sensor read while quiet (tips out 682, tips in 0) - done whenever a reading is above what tips-in gives (>95) and every 5 s - so pulling the tips stops the plasma, usually within ~1 s, at worst ~5 s. HARD CAP: plasma never stays on past the slider time + 0.5 s (blinking 888 if the cap had to act). STOP / serial stop / Test Plasma OFF still end the cycle. Keeps the main-loop fixes (smoothed power/vac flow, timer shut-offs, pump stays on). On-screen label still reads 4.1.38. Program only (.4XE), uSD untouched.",
   "source_repo": "AugeasTechnologies/plasma-charger-firmware",
-  "source_commit": "a90e897",
+  "source_commit": "eaa2867",
   "sig": {
     "alg": "ed25519",
     "key": "ota-1",
-    "value": "Uyn6FLzE6Nq9yb+RRcwalWaqtTgtsL8SfD7MHFnrRVqlbqHpyugviY3WaA2HbP9yz2sOsRrdlyrXcDAPK+vYAw=="
+    "value": "UgVdqc9oBSLovqK0bhFrJVWReOpcVZ9WGXD0enIEbFrUfrDGgiq5cI/1AJK9lOpYW3D1vlqqijYcQXfuVEXiCg=="
   }
 }
