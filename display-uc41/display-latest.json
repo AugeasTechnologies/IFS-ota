@@ -1,22 +1,22 @@
 {
-  "version": "4.1.39C",
+  "version": "4.1.39B",
   "name": "uc41_display",
   "family": "uc41",
   "model": "Gen4-uLCD-50DT-P (Diablo16)",
   "processor": "Picaso",
-  "xe": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/display-uc41/uc41_display_4.1.39C.4XE",
+  "xe": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/display-uc41/uc41_display_4.1.39B.4XE",
   "xe_sha256": "0b27a765ea4246690c5833cc533e6c5e65293dfe61fcfce3fa2324986b7b54b8",
-  "cfg": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/display-uc41/uc41_display_4.1.39C.cfg",
+  "cfg": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/display-uc41/uc41_display_4.1.39B.cfg",
   "cfg_sha256": "ff31f6a34752ca53524286f207d718efddbaabefe9e084d2b775658df22064ba",
   "download_baud": 9600,
   "graphics": false,
   "reset": "usb-programmer",
-  "notes": "Universal Controller 4.1 (Tip Charger) display - do NOT flash onto a Plasma StandAlone panel. 4.1.39C (bench-verified 2026-11-16): auto-on when tips go in, auto-off ~1-2 s after tips come out under plasma EMI (brief plasma-off sensor check on a reading >90), plasma never past the slider time + 0.5 s (888 blinks if the cap acts), smoothed power/vac flow, timer/cooling fixes, STOP from any screen, pump stays on between cycles. On-screen label still reads 4.1.38 (graphics unchanged). Program only (.4XE), uSD untouched. Recovery: the original 4.1.38 file stays at display-uc41/uc41_display_4.1.38.4XE (use Flash my compiled build). Flash over a direct 4D USB programmer.",
+  "notes": "Universal Controller 4.1 (Tip Charger) display - do NOT flash onto a Plasma StandAlone panel. 4.1.39B (= bench build 4.1.39C, bench-verified 2026-11-16): auto-on when tips go in, auto-off ~1-2 s after tips come out under plasma EMI (brief plasma-off sensor check on a reading >90), plasma never past the slider time + 0.5 s (888 blinks if the cap acts), smoothed power/vac flow, timer/cooling fixes, STOP from any screen, pump stays on between cycles. On-screen label still reads 4.1.38 (graphics unchanged). Program only (.4XE), uSD untouched. Recovery: the original 4.1.38 file stays at display-uc41/uc41_display_4.1.38.4XE (use Flash my compiled build). Flash over a direct 4D USB programmer.",
   "source_repo": "AugeasTechnologies/plasma-charger-firmware",
   "source_commit": "08cfaca",
   "sig": {
     "alg": "ed25519",
     "key": "ota-1",
-    "value": "7HllBvxqGzKi8G/o/ShvFG8YNStct8KVYykwuT46qduMrDiGjabMgK8d6Cf37BEJjIzCprKLB2NOyISfALuzBw=="
+    "value": "CXSvlswoLGk03SPJ0Vunl48YUruzEoN0EfNqpabbOK1EsPM0ji4Cm6XakgbmLBKBH7e2sl5szXjv4jFhYxqyDQ=="
   }
 }

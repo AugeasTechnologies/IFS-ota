@@ -1,22 +1,22 @@
 {
-  "version": "4.1.39C",
+  "version": "4.1.39B",
   "name": "uc41_display",
   "family": "uc41",
   "model": "Gen4-uLCD-50DT-P (Diablo16)",
   "processor": "Picaso",
-  "xe": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/display-uc41/uc41_display_4.1.39C.4XE",
+  "xe": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/display-uc41/uc41_display_4.1.39B.4XE",
   "xe_sha256": "0b27a765ea4246690c5833cc533e6c5e65293dfe61fcfce3fa2324986b7b54b8",
-  "cfg": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/display-uc41/uc41_display_4.1.39C.cfg",
+  "cfg": "https://raw.githubusercontent.com/AugeasTechnologies/IFS-ota/main/display-uc41/uc41_display_4.1.39B.cfg",
   "cfg_sha256": "ff31f6a34752ca53524286f207d718efddbaabefe9e084d2b775658df22064ba",
   "download_baud": 9600,
   "graphics": false,
   "reset": "usb-programmer",
-  "notes": "Universal Controller 4.1 (Tip Charger) display - do NOT flash onto a Plasma StandAlone panel. 4.1.39C TEST BUILD: AUTO ON + AUTO OFF, no hiccups. Tips in fires plasma and it runs steady. Tips out: when a reading goes above what tips-in gives (>90) the plasma is switched off for a moment and the sensor read while quiet; tips out stops the plasma (~1-2 s after pulling, as 4.1.39B on the bench). 4.1.39B's routine 5 s check (the hiccup with tips held) is removed. HARD CAP: plasma never stays on past the slider time + 0.5 s (blinking 888 if the cap had to act). On-screen label still reads 4.1.38. Program only (.4XE), uSD untouched.",
+  "notes": "Universal Controller 4.1 (Tip Charger) display - do NOT flash onto a Plasma StandAlone panel. 4.1.39B (= bench build 4.1.39C, bench-verified): AUTO ON + AUTO OFF, no hiccups. Tips in fires plasma and it runs steady. Tips out: when a reading goes above what tips-in gives (>90) the plasma is switched off for a moment and the sensor read while quiet; tips out stops the plasma (~1-2 s after pulling, as 4.1.39B on the bench). 4.1.39B's routine 5 s check (the hiccup with tips held) is removed. HARD CAP: plasma never stays on past the slider time + 0.5 s (blinking 888 if the cap had to act). On-screen label still reads 4.1.38. Program only (.4XE), uSD untouched.",
   "source_repo": "AugeasTechnologies/plasma-charger-firmware",
-  "source_commit": "e852e3f",
+  "source_commit": "08cfaca",
   "sig": {
     "alg": "ed25519",
     "key": "ota-1",
-    "value": "RkfVIAGczuZZQFOpKHP6oS4PNwR3G4bCLJ/lYgZBaJOWzRulBopDIknkiWdwtdWq1+UbiAhhWwYJrHOrvzoIDw=="
+    "value": "noB28SyulC07tmZVFX+5ULZ8GM9Dn/CvcZFvzVrTDk8BmXZWh3WYx9dsg03zlv3AZh48sce/3Y1O9jFzKm7yDQ=="
   }
 }
